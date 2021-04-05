@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "HVAC"
+title = "Greiber Heating & Sheet Metal"
 enableRobotsTXT = true
 disableAliases = true
 summaryLength = 30
@@ -8,18 +8,19 @@ summaryLength = 30
 #################### default parameters ################################
 
 [params]
-  logo = ""
+  logo = "/images/Greiber-Heating-Logo.jpg"
   # Meta data
   description = " "
-  author = "HVAC"
+  author = "Greiber Heating & Sheet Metal"
   # Contact Information
-  phone = "555-555-5555"
-  cell = "555-555-5555"
-  fax = "555-555-5555"
-  email = "email@example.com"
-  address = "123 Adress St."
-  GoogleMapDirections = ""
-  hours = "Mon-Fri: 8am-5pm"
+  phone = "608-849-4535"
+  email = "karen@greiberheating.com"
+  address = """
+    402 W Main St
+    Waunakee, WI 53597"""
+  GoogleMapDirections = "https://goo.gl/maps/XDuX7spJ38gDigWL7"
+  hours = "Mon-Thu: 7:30am-5pm"
+  hoursFri = "Fri: 7:30am-4am"
   disallowSearchEngines = true
   # Google Analitycs
   googleAnalytics = " " # Your ID# search 
@@ -77,11 +78,9 @@ summaryLength = 30
     weight = 4
 
 [[menu.main]]
-    name = "Specials"
-    url  = "/specials/"
-    weight = 5
-
-[[menu.main]]
     name = "Contact"
     url  = "/contact/"
-    weight = 7
+    weight = 5
+
+[social]
+  facebook = "https://www.facebook.com/GreiberHeatingandSheetMetal/"

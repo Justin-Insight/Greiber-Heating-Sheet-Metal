@@ -26,10 +26,10 @@
 .btn.btn-primary {
   background-image: linear-gradient(
     to right,
-    #ae2424 0%,
-    #d43131 15%,
-    #d43131 85%,
-    #ae2424 100%
+    $primaryColor 0%,
+    $secondaryColor 15%,
+    $secondaryColor 85%,
+    $primaryColor 100%
   );
 }
 .center-button {
