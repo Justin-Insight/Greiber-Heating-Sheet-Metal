@@ -1,11 +1,11 @@
 ---
 title: Home
-page_title: Heating and Cooling Experts
-heroTitle: Heating and Cooling Experts
-description: Heating & Air Conditioning—experts in commercial & residential HVAC, geothermal heating, cooling, ventilation & Carrier equipment.
+page_title: Heating and Cooling Experts in Waunakee, WI
+heroTitle: Heating and Cooling Experts in Waunakee, WI
+description: Greiber Heating & Sheet Metal offers residential HVAC repair, furnace, air conditioning or cooling service plus quality Carrier equipment in Waunakee, Wisconsin
 intro:
-  heading: Intro Heading
-  copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet sagittis id consectetur purus ut. Eu lobortis elementum nibh tellus molestie nunc non blandit.
+  heading: Committed to Comfort Since 1945
+  copy: As a fourth-generation, family-owned business, Greiber Heating & Sheet Metal has served Waunakee and the surrounding Dane County area with premier residential heating and cooling services for decades. Whether a repair, replacement or entire system installation, we take great pride in personalized service, custom HVAC solutions and dedication to getting the job done right. As an award-winning Carrier supplier, Greiber Heating & Sheet Metal’s commitment to comfort is matched by only the highest quality equipment.
   image: knope-heating-and-air-conditioning
   imageAlt: Carrier service repairmen meeting with client and looking and furnaces and air conditioning units
 awards:
@@ -15,34 +15,36 @@ awards:
     alt: 2020 Carrier Presidents Award Winner
   - image: 2019-carrier-presidents-award-grayscale.jpg
     alt: 2019 Carrier Presidents Award Winner
-  - image: 2018-carrier-presidents-award-grayscale.jpg
-    alt: 2018 Carrier Presidents Award Winner
-  - image: NATE-Certified-Technicians.jpg
-    alt: NATE Certified Technicians
   - image: BBB-Accredited.jpg
     alt: BBB Accredited Business
-  - image: carrier-authorized-dealer.jpg
-    alt: Carrier Authorized Dealer
+  - image: National-Federation-of-Independent-Business.jpg
+    alt: National Federation of Independent Business
+  - image: Madison-Area-Builders-Association.jpg
+    alt: Madison Area Builders Association
+  - image: Wisconsin-Builders-Association.jpg
+    alt: Wisconsin Builders Association
+  - image: Waunakee-Area-Chamber-of-Commerce.jpg
+    alt: Waunakee Area Chamber of Commerce
 cards:
-  - icon: family
-    heading: Family-Owned
-    body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  - icon: certified
-    heading: NATE-Certified Technicians
-    body: Our technicians are North American Technical Excellence certified and professionally trained to provide expert service.
-  - icon: clock
-    heading: 24-Hour Emergency Service
-    body: For your convenience, we provide same day and after-hours emergency service, plus free in-home estimates.
+  - icon: financing
+    heading: Affordable Financing
+    body: For your convenience, we offer affordable financing and the ability to apply before your consultation.
+  - icon: quality
+    heading: Commitment to Quality
+    body: No matter the size of your project, our technicians are dedicated to providing the same quality equipment and service.
+  - icon: same-day-service
+    heading: Same-Day Service
+    body: For your convenience, we provide emergency 24-hour, same-day service, plus free in-home estimates.
 featured:
   - background: carrier-factory-authorized-dealer-background.jpg
     image: carrier-factory-authorized-dealer-logo.png
     heading: Carrier Authorized Dealer
-    body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet sagittis id consectetur purus ut. Eu lobortis elementum nibh tellus molestie nunc non blandit.
+    body: As a factory authorized dealer of quality Carrier products since 1983, Greiber Heating & Sheet Metal knows the value of quality products and equipment. We offer a large selection of Energy Star products ranging from air conditioners and furnaces to air purifiers, ductless split systems and more.
 testimonials:
-  - testimonial: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet sagittis id consectetur purus ut. Eu lobortis elementum nibh tellus molestie nunc non blandit.
-    author: Author
-  - testimonial: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet sagittis id consectetur purus ut. Eu lobortis elementum nibh tellus molestie nunc non blandit.
-    author: Author
-  - testimonial: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet sagittis id consectetur purus ut. Eu lobortis elementum nibh tellus molestie nunc non blandit.
-    author: Author
+  - testimonial: Amazing customer service. Devon was great explaining our options for fixing or replacing our furnace. We highly recommend Greiber Heating. Great local, family-run business!
+    author: "- Kelly P."
+  - testimonial: Came on short notice and installed our AC. Left everything in order and were friendly and helpful. Would recommend them to anyone.
+    author: "- Jack J."
+  - testimonial: Greiber Heating & Sheet Metal has been servicing our HVAC needs for over 30 years and always continues to impress us with their professionalism, knowledge and service detail. They give 110% each and every time!
+    author: "- Linda A."
 ---

@@ -4,9 +4,11 @@
     <div class="w-100 w-60-m">
       <h1>{{ .Params.HeroTitle }}</h1>
     </div>
-    <div class="hero__service-request w-100 w-40-m">
-      {{ partial "request-service" . }}
+    <div class="w-100 w-40-m">
     </div>
+  </div>
+  <div class="hero__service-request w-100 w-40-m">
+    {{ partial "request-service" . }}
   </div>
 </div>
 {{ else if eq .Params.has_hero_image true }}

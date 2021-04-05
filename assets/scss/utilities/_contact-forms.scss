@@ -1,10 +1,41 @@
+.contact-form-wrapper {
+  @include breakpoint(md) {
+    position: absolute;
+    bottom: -150px;
+    width: 100%;
+  }
+  @include breakpoint(lg) {
+    bottom: -200px;
+  }
+}
+.emergency-cta {
+  background-color: $primaryColor;
+  color: $white;
+  padding: 2rem;
+  @include breakpoint(md) {
+    padding: 2rem 5rem;
+  }
+  @include breakpoint(lg) {
+    padding: 5rem;
+  }
+  a,
+  h3,
+  svg {
+    color: $white;
+    fill: $white;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+}
 .contact-form {
   background-color: $white;
-  padding: 1rem;
+  padding: 2rem;
   box-shadow: 8px 8px 48px rgba(25, 25, 96, 0.25);
   @include breakpoint(md) {
-    max-width: 20em;
-    margin: 0;
+    padding: 2rem 5rem;
+  }
+  @include breakpoint(lg) {
+    padding: 5rem;
   }
   .contact-form__form-group label {
     font-size: 1.6rem;

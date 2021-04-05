@@ -19,7 +19,7 @@ summaryLength = 30
     402 W Main St
     Waunakee, WI 53597"""
   GoogleMapDirections = "https://goo.gl/maps/XDuX7spJ38gDigWL7"
-  hours = "Mon-Thu: 7:30am-5pm"
+  hours = "Mon-Thurs: 7:30am-5pm"
   hoursFri = "Fri: 7:30am-4am"
   disallowSearchEngines = true
   # Google Analitycs

@@ -1,5 +1,6 @@
 .hero {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   height: 100%;
   background-size: cover;
@@ -9,12 +10,15 @@
   padding: 6rem 1rem;
   @include breakpoint(md) {
     height: 80vh;
+    flex-direction: row;
   }
   &__service-request {
-    display: flex;
-    justify-content: center;
-    @include breakpoint(sm) {
-      justify-content: flex-end;
+    position: relative;
+    z-index: 2;
+    @include breakpoint(md) {
+      position: absolute;
+      bottom: 0;
+      right: 0;
     }
   }
 }
