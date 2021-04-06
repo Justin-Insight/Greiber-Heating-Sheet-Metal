@@ -14,7 +14,7 @@
   @include breakpoint(sm) {
     width: 42%;
   }
-  @include breakpoint(xl) {
+  @include breakpoint(md) {
     width: 45%;
   }
   &__link {
