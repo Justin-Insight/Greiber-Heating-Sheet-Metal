@@ -9,7 +9,7 @@
     <div class="logo-wrapper">
       <a class="brand-logo" href="{{ site.BaseURL }}">
         {{ if site.Params.logo }}
-          <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" class="img-responsive dim" width="200" height="100">
+          <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" class="img-responsive" width="200" height="100">
         {{ else }}
           <h1>{{ site.Title }}</h1>
         {{ end }}
@@ -24,8 +24,9 @@
   </div>  
   <div class="primary-nav-container">
     <nav class="nav primary-nav">
-      {{ with .Site.Menus.main }}
-      <ul class="nav-list">
+      <div class="container-wide">
+        {{ with .Site.Menus.main }}
+        <ul class="nav-list">
           {{ range . }}
           <li class="nav-list-item">
             <a class="nav-item" href="{{ .URL | absLangURL}}" aria-label="{{ .Name }}"
@@ -33,7 +34,8 @@
           </li>
           {{ end }}
           </ul>
-      {{ end }}
+        {{ end }}
+      </div>
     </nav>
     <nav class="nav mobile-nav">
       {{ with .Site.Menus.main }}

@@ -8,6 +8,7 @@
   z-index: 1;
   &:after {
     position: absolute;
+    z-index: -1;
     content: "";
     height: 100%;
     width: 100%;
@@ -19,9 +20,15 @@
       rgba(0, 0, 0, 0.8) 0%,
       rgba(0, 0, 0, 0.2) 100%
     );
-    z-index: -1;
+  }
+  .contact-form {
+    padding: 2rem;
   }
   .business-info {
+    width: 100%;
+    &__wrapper {
+      width: 100%;
+    }
     a,
     p,
     svg {
@@ -29,9 +36,5 @@
       fill: $white;
       stroke: $white;
     }
-  }
-  &__wrapper {
-    padding: 2rem;
-    background-color: rgba($primaryColor, 0.7);
   }
 }

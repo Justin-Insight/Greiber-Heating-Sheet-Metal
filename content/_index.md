@@ -26,15 +26,19 @@ awards:
   - image: Waunakee-Area-Chamber-of-Commerce.jpg
     alt: Waunakee Area Chamber of Commerce
 cards:
-  - icon: financing
-    heading: Affordable Financing
-    body: For your convenience, we offer affordable financing and the ability to apply before your consultation.
-  - icon: quality
-    heading: Commitment to Quality
-    body: No matter the size of your project, our technicians are dedicated to providing the same quality equipment and service.
-  - icon: same-day-service
-    heading: Same-Day Service
-    body: For your convenience, we provide emergency 24-hour, same-day service, plus free in-home estimates.
+  cards_row: false
+  cards_stacked: true
+  image: Dealer_Couple_Infinity_Control
+  card_item:
+    - icon: financing
+      heading: Affordable Financing
+      body: For your convenience, we offer affordable financing and the ability to apply before your consultation.
+    - icon: quality
+      heading: Commitment to Quality
+      body: No matter the size of your project, our technicians are dedicated to providing the same quality equipment and service.
+    - icon: same-day-service
+      heading: Same-Day Service
+      body: For your convenience, we provide emergency 24-hour, same-day service, plus free in-home estimates.
 featured:
   - background: carrier-factory-authorized-dealer-background.jpg
     image: carrier-factory-authorized-dealer-logo.png
