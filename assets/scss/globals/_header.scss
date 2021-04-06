@@ -114,6 +114,12 @@
   font-weight: 700;
   background: $secondaryColor;
 }
+.appointment-list-item {
+  margin-left: auto;
+}
+.appointment {
+  background: #003d7f;
+}
 .nav-open {
   transform: translateX(0);
   opacity: 1;
