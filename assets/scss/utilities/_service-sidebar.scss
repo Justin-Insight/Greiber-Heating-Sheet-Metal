@@ -1,0 +1,10 @@
+.service-sidebar {
+  display: none;
+  @include breakpoint(lg) {
+    display: block;
+  }
+  .contact-form-wrapper {
+    position: relative;
+    top: 0;
+  }
+}

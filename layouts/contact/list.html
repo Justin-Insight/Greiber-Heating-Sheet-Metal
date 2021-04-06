@@ -19,15 +19,13 @@
                             <div class="business-info__col-content">
                                 <h6>Phone</h6>
                                 <p>Office: <a href="tel:{{ .Site.Params.phone }}"> {{ .Site.Params.phone }}</a></p>
-                                <p>Cell: <a href="tel:{{ .Site.Params.cell }}"> {{ .Site.Params.cell }}</a></p>
-                                <p>Fax: {{ .Site.Params.fax }}</p>
                             </div>
                         </div>
                         <div class="business-info__col flex">
                             {{ partial "svg-icons/location.svg" . }}
                             <div class="business-info__col-content header-business-info__address">
                                 <h6>Address</h6>
-                                <p><a href="{{ .Site.Params.GoogleMapDirections }}" target="_blank">{{ .Site.Params.address }}</a></p>
+                                <p><a href="{{ .Site.Params.GoogleMapDirections }}" target="_blank">{{ .Site.Params.address_line_1 }}<br>{{ .Site.Params.address_line_2 }}</a></p>
                             </div>
                         </div>
                         <div class="business-info__col flex">

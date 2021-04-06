@@ -15,7 +15,9 @@
 @import "globals/hamburger";
 @import "globals/header";
 @import "globals/footer";
+
 @import "pages/default";
+
 @import "utilities/hero";
 @import "utilities/buttons";
 @import "utilities/business-info";
@@ -27,6 +29,9 @@
 @import "utilities/testimonials";
 @import "utilities/breadcrumbs";
 @import "utilities/cta";
+@import "utilities/service-cards";
+@import "utilities/service-sidebar";
+
 @import "pages/home";
 @import "pages/services";
 @import "pages/about";
