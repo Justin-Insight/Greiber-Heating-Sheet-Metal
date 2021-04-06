@@ -25,14 +25,14 @@
                             {{ partial "svg-icons/location.svg" . }}
                             <div class="business-info__col-content header-business-info__address">
                                 <h6>Address</h6>
-                                <p><a href="{{ .Site.Params.GoogleMapDirections }}" target="_blank">{{ .Site.Params.address_line_1 }}<br>{{ .Site.Params.address_line_2 }}</a></p>
+                                <p><a href="{{ .Site.Params.google_map_directions }}" target="_blank" rel="noreferrer">{{ .Site.Params.address_line_1 }}<br>{{ .Site.Params.address_line_2 }}</a></p>
                             </div>
                         </div>
                         <div class="business-info__col flex">
                             {{ partial "svg-icons/calendar.svg" . }}
                             <div class="business-info__col-content">
                                 <h6>Hours</h6>
-                                <p>{{ .Site.Params.hours }}</p>
+                                <p>{{ .Site.Params.hours }}<br>{{ .Site.Params.hoursFri }}</p>
                                 <p>24hr Emergency Service</p>
                             </div>
                         </div>

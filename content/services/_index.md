@@ -1,8 +1,8 @@
 ---
 title: Services
 page_title: Heating and Cooling Repair Services
-heroTitle:
-description: "{{ site.Params.author }} offers commercial, residential & industrial HVAC, geothermal heating, cooling & ventilation services in Shawano, Wisconsin."
+hero_title:
+description: "Greiber Heating & Sheet Metal offers commercial, residential & industrial HVAC, geothermal heating, cooling & ventilation services in Waunakee, Wisconsin."
 has_hero_image: true
 ---
 

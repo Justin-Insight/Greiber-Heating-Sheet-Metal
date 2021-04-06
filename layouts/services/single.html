@@ -1,8 +1,21 @@
 {{ define "main" }}
     {{ partial "hero" .  }}
-    <div class="container padding-top-10 padding-bottom-10">
-        {{ .Content  }}
+    <div class="container-wide single-service padding-top-10 padding-bottom-10">
+        <div class="flex flex-column-reverse flex-row-m">
+            <div class="service-sidebar w-100 w-30-m">
+                <h3 class="no-margin">Services</h3>
+                <ul class="service-sidebar__nav">
+                    {{ range where .Site.Pages "Section" "services"}}
+                    {{ if ne .URL "/services/" }}
+                    <li class="service-sidebar__list-item"><a href="{{ .URL }}" class="service-sidebar__link">{{ .Title }}</a></li>
+                    {{ end }}
+                    {{ end }}
+                </ul>
+            </div>
+            <div class="w-100 w-70-m">
+                {{ .Content  }}
+            </div>
+        </div>
     </div>
-    {{ partial "full-width-feature" . }}
     {{ partial "cta" . }}
 {{ end }}

@@ -8,6 +8,7 @@
   &__copyright-wrapper {
     align-items: center;
     @include breakpoint(md) {
+      justify-content: space-between;
       span {
         margin-right: 1rem;
       }
@@ -37,5 +38,14 @@
   }
   &__nav-list-item + &__nav-list-item {
     margin-left: 0.5rem;
+  }
+  &__social {
+    margin: 0;
+    svg {
+      fill: $white;
+    }
+  }
+  &__social-list-item {
+    list-style: none;
   }
 }

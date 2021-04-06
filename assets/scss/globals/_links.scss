@@ -1,11 +1,11 @@
 a {
-  color: $accentColor;
+  color: $primaryColor;
   transition: 0.3s ease;
   display: inline-block;
   &:hover,
   &:focus {
-    color: $primaryColor;
-    outline-color: $primaryColor;
+    color: $accentColor;
+    outline-color: $accentColor;
   }
 }
 .primary-link,
