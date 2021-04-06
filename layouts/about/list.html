@@ -3,22 +3,23 @@
     <div class="container padding-top-10 padding-bottom-10">
         {{ .Content  }}
     </div>
-    <div class="bg-gray padding-top-10 padding-bottom-10">
+    <div class="bg-gray padding-top-10">
         {{ with .Params.team }}
-        <div class="container">
+        <div class="container-wide">
             <h3 class="no-margin">{{ .heading }}</h3>
             <div class="underline"></div>
-                <div class="flex flex-column flex-row-m">
-                    {{ range .member }}
-                    <div class="w-100 w-50-m">
-                        <img src="/images/{{ .image }}" alt="">
-                        <h4 class="g5">{{ .name }}</h4>
-                        <p>{{ .copy }}</p>
-                    </div>
-                    {{ end }}
+            <div class="flex flex-column flex-row-m">
+                {{ range .member }}
+                <div class="w-100 w-50-m">
+                    <img src="/images/{{ .image }}" alt="">
+                    <h4 class="g5">{{ .name }}</h4>
+                    <p>{{ .copy }}</p>
                 </div>
+                {{ end }}
             </div>
+        </div>
         {{ end }}
+        {{ partial "testimonials" . }}
     </div>
     {{ with .Params.featured }}
     {{ partial "full-width-feature-reverse" . }}

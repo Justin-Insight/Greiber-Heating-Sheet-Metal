@@ -1,6 +1,6 @@
 ---
 title: About
-hero_title: Pride and Purpose, Since 1945
+hero_title: About
 page_title: Heating and Cooling Experts in Shawano, WI
 description: "Greiber Heating & Sheet Metal offers residential HVAC repair, furnace, air conditioning or cooling service plus quality Carrier equipment in Waunakee, Wisconsin"
 has_hero_image: true
@@ -20,7 +20,18 @@ featured:
     - image: 2021-carrier-presidents-award.jpg
     - image: 2020-carrier-presidents-award.jpg
     - image: 2019-carrier-presidents-award.jpg
+testimonials:
+  - testimonial: Excellent service. We had no heat. In the middle of a -10 day on very short notice. They came out quickly and fixed the furnace within the hour. Great experience.
+    author: "- Tim C."
+  - testimonial: They did a great job - and fast - in an emergency when the furnace quit during the polar vortex!
+    author: "- Brian A."
+  - testimonial: Excellent customer service, quick turnaround to do the work, friendly, best price in the area! Highly recommend!
+    author: "- Karly K."
 ---
+
+### Pride and Purpose, Since 1945
+
+<div class="underline"></div>
 
 Greiber Heating & Sheet Metal is a locally owned and operated family business in Waunakee, Wisconsin led by Devon Greiber in partnership with his mother Karen Greiber. The business—along with a strong commitment to quality workmanship and service—has been handed down through four generations.
 
