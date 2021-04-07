@@ -1,6 +1,7 @@
 ---
 title: Humidifiers
 featuredImage: performance-fan-powered-humidifier-HUMXXLFP.png
+image_alt: Carrier Humififiers
 page_title: Humidifiers for the whole house
 description: A whole house humidifier ensures your comfort when humidity levels are low by adding moisture to the air.
 weight: 4

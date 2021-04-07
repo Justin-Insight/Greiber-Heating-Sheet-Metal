@@ -1,6 +1,7 @@
 ---
 title: Evaporator Coils
 featuredImage: performance-cased-n-evaporator-coil-CNPVP.png
+image_alt: Carrier Evaporator Coils
 page_title: AC Evaporator Coils
 description: As a core component of the system, they sit on top of your furnace to ensure your comfort by promoting enhanced indoor air quality.
 has_hero_image: true

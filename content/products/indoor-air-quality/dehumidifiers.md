@@ -1,6 +1,7 @@
 ---
 title: Dehumidifiers
 featuredImage: dehumidifier-DEHCR.png
+image_alt: Carrier dehumidifiers
 page_title: Dehumidifiers
 description: Our dehumidifiers offer humidity control solutions for enhanced comfort, even in high humidity conditions. Contact us today for more information!
 weight: 4

@@ -1,6 +1,7 @@
 ---
 title: Fan Coils
 featuredImage: infinity-fan-coil-FE4.png
+image_alt: Carrier Fan Coils
 page_title: Fan Coils
 description: Our fan coils and other Carrier cooling products will help push your cooling systems efficiency to its highest level. Contact us or order today!
 has_hero_image:

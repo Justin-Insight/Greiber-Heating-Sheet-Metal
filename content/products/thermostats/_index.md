@@ -1,6 +1,7 @@
 ---
 title: Thermostats
 featuredImage: carrier-3Lite-front-view.png
+image_alt: Carrier Thermostats
 page_title: Residential Thermostats
 description: Thermostats give you easy-to-use control of your home comfort anytime. Learn more about Carrier thermostats
 has_hero_image: true

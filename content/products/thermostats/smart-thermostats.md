@@ -1,6 +1,7 @@
 ---
 title: Smart Thermostats
 featuredImage: carrier-3Lite-front-view.png
+image_alt: Carrier Smart Thermostats
 page_title: Smart Residential Thermostats
 description: Smart thermostats give you easy-to-use control of your home comfort anytime. Learn more about Carrier smart thermostats
 weight: 4

@@ -1,6 +1,7 @@
 ---
 title: Ventilators
 featuredImage: performance-energy-recovery-ventilator-ERVCRLHB.png
+image_alt: Carrier Ventilators
 page_title: Ventilators
 description: Whole home ventilators bring in outdoor air to exchange your indoor air and help your system remain energy efficient.
 weight: 4

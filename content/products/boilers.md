@@ -1,6 +1,7 @@
 ---
 title: Boilers
 featuredImage: performance-90-gas-fired-boiler-BW9.png
+image_alt: Carrier Boilers
 page_title: Residential Boilers
 description: In homes with radiant heat, our gas- and oil-fired boilers efficiently power your system and spread warmth. Find a boiler today.
 has_hero_image: true

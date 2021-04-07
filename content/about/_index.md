@@ -9,9 +9,11 @@ team:
   member:
     - name: Devon Greiber, Owner
       image: devon-greiber.jpg
+      image_alt: Headshot of Devon Greiber
       copy: "Devon began work at Greiber Heating & Sheet Metal while still attending high school in Waunakee. He enjoyed working on homes with his father and always had aspirations to eventually lead the family business. Devon attended the University of Wisconsin - Stout where he received a Bachelor’s degree in engineering. After college, Devon worked as an engineer for John Deere before returning to his true passion—the family business—in partnership with his mother Karen in 2014."
     - name: Karen Greiber, Office Manager
       image: fem-320w.jpg
+      image_alt: Headshot of Karen Greiber
       copy: "Karen and her late husband Marv became owners of Greiber Heating & Sheet Metal in 1990. As the office manager, Karen handles administrative operations including scheduling, accounting and billing. She’s also the kind voice you hear on the other end of the phone when you call. Outside of the office, she enjoys volunteering throughout the community and spending time with her children and grandchildren."
 featured:
   heading: Nationally Recognized

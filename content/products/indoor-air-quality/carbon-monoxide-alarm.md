@@ -1,6 +1,7 @@
 ---
 title: Carbon Monoxide (CO) Alarm
 featuredImage: carbon-monoxide-alarm-COALM.png
+image_alt: Carrier Carbon Monoxide Alarms
 page_title: Carbon Monoxide (CO) Alarm
 description: Our dehumidifiers offer humidity control solutions for enhanced comfort, even in high humidity conditions. Contact us today for more information!
 weight: 4

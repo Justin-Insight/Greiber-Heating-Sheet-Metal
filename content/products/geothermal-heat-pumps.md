@@ -1,6 +1,7 @@
 ---
 title: Geothermal Heat Pumps
 featuredImage: infinity-geothermal-heat-pump-GC.png
+image_alt: Carrier Geothermal Heat Pumps
 page_title: Geothermal Heat Pumps
 description: Geothermal heat pump systems tap into the energy right in your own backyard. Explore our geothermal pumps to find yours.
 has_hero_image: true
