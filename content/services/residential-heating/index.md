@@ -2,12 +2,12 @@
 title: Residential Heating Services
 page_title: Residential Heating Services
 description: "Greiber Heating & Sheet Metal offers commercial, residential & industrial HVAC, geothermal heating, cooling & ventilation services in Waunakee, Wisconsin."
-short_description: "Feel Warm and Toasty at Home With Our Heating Services"
+short_description: "Feel warm and toasty at home with our heating services."
 has_hero_image: true
 image: Dealer_Couple1_Basement_Furnace.jpg
 ---
 
-### Feel Warm and Toasty at Home With Our Heating Services
+<h2 class="no-margin">Feel Warm and Toasty at Home With Our Heating Services</h2>
 
 <div class="underline"></div>
 

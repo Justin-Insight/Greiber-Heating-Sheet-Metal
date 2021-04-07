@@ -15,7 +15,7 @@ team:
       copy: "Karen and her late husband Marv became owners of Greiber Heating & Sheet Metal in 1990. As the office manager, Karen handles administrative operations including scheduling, accounting and billing. She’s also the kind voice you hear on the other end of the phone when you call. Outside of the office, she enjoys volunteering throughout the community and spending time with her children and grandchildren."
 featured:
   heading: Nationally Recognized
-  body: Greiber Heating & Sheet Metal is a three-time Carrier President’s Award recipient. Each year, Carrier honors HVAC companies that demonstrate the ability to go far beyond the status quo—even in the face of challenges and change— plus, year-over-year growth and continual emphasis on customer satisfaction.
+  body: Greiber Heating & Sheet Metal is a three-time Carrier President’s Award recipient. Each year, Carrier honors HVAC companies that demonstrate the ability to go far beyond the status quo—even in the face of challenges and change—year-over-year growth and continual emphasis on customer satisfaction.
   images:
     - image: 2021-carrier-presidents-award.jpg
     - image: 2020-carrier-presidents-award.jpg

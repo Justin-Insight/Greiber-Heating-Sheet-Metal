@@ -21,6 +21,17 @@
       rgba(0, 0, 0, 0.2) 100%
     );
   }
+  .w-60-m + .w-40-m {
+    @include breakpoint(md) {
+      margin-left: 4rem;
+    }
+    @include breakpoint(lg) {
+      margin-left: 10rem;
+    }
+    @include breakpoint(xl) {
+      margin-left: 20rem;
+    }
+  }
   .contact-form {
     padding: 2rem;
   }

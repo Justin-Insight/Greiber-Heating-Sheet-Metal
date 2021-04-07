@@ -3,12 +3,12 @@ title: Ductless Split Systems
 page_title: Effective Choice for Heating and Cooling System
 hero_title: Effective Choice for Heating and Cooling System
 description: "Greiber Heating & Sheet Metal offers commercial, residential & industrial HVAC, geothermal heating, cooling & ventilation services in Waunakee, Wisconsin."
-short_description: "Our Duct-Free Split Systems are a great choice for your unique heating and cooling needs"
+short_description: "Our duct-free split systems are a great choice for your unique heating and cooling needs."
 has_hero_image: true
 image: Interior_ShiplapWall_wDuctless-Straight.jpg
 ---
 
-## Ductless Split Systems
+<h2 class="no-margin">Ductless Split Systems</h2>
 
 <div class="underline"></div>
 
