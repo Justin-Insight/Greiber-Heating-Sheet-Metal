@@ -28,32 +28,6 @@ Product:
             - feature: "Sound Level (As Low As): 51 decibels"
             - feature: "Silencer System II Design: Yes"
             - feature: "Compressor Sound Blanket: Yes"
-        - title: Infinity® 20 Air Conditioner with Greenspeed® Intelligence
-          image: infinity-20-air-conditioner-with-greenspeed-intelligence-24VNA0.png
-          productCode: 24VNA0
-          description: Up to 20.5 SEER for premium energy savings with premium comfort features.
-          features:
-            - feature: "Initial Cost: $$$"
-            - feature: "Overall Efficiency: ENERGY STAR® certified"
-            - feature: "Cooling SEER: Up to 20.5"
-            - feature: "Cooling EER: Up to 15.5"
-            - feature: "Compressor Type: Variable-speed"
-            - feature: "Sound Level (As Low As): 58 decibels"
-            - feature: "Silencer System II Design: Yes"
-            - feature: "Compressor Sound Blanket: Yes"
-        - title: Infinity® 21 Central Air Conditioner
-          image: infinity-central-air-conditioner.png
-          productCode: 24ANB1
-          description: Up to 19 SEER for premium energy savings with enhanced comfort features.
-          features:
-            - feature: "Initial Cost: $$$"
-            - feature: "Overall Efficiency: ENERGY STAR® certified"
-            - feature: "Cooling SEER: Up to 19"
-            - feature: "Cooling EER: Up to 15.5"
-            - feature: "Compressor Type: Two-stage"
-            - feature: "Sound Level (As Low As): 65 decibels"
-            - feature: "Silencer System II Design: Yes"
-            - feature: "Compressor Sound Blanket: Yes"
         - title: Infinity® 19VS Central Air Conditioner
           image: infinity-19vs-central-air-conditioner-24VNA9.png
           productCode: 24VNA9
@@ -67,18 +41,6 @@ Product:
             - feature: "Sound Level (As Low As): 56 decibels"
             - feature: "Silencer System II Design: Yes"
             - feature: "Compressor Sound Blanket: Yes"
-        - title: Infinity® 17 Central Air Conditioner
-          image: infinity-central-air-conditioner.png
-          productCode: 24ANB7
-          description: Up to 17 SEER for enhanced energy savings with enhanced comfort features.
-          features:
-            - feature: "Initial Cost: $$$"
-            - feature: "Overall Efficiency: ENERGY STAR® certified"
-            - feature: "Cooling SEER: Up to 17"
-            - feature: "Cooling EER: Up to 13"
-            - feature: "Compressor Type: Two-stage"
-            - feature: "Sound Level (As Low As): 70 decibels"
-            - feature: "Silencer System II Design: Yes"
         - title: Infinity® 16 Central Air Conditioner
           image: infinity-central-air-conditioner.png
           productCode: 24ANB6
@@ -114,18 +76,6 @@ Product:
             - feature: "Compressor Sound Blanket: Yes"
         - title: Performance™ 16 Central Air Conditioner
           image: performance-17-central-air-conditioner-24ACB7.png
-          productCode: 24ACC6
-          description: Up to 17 SEER for enhanced energy savings with standard comfort features.
-          features:
-            - feature: "Initial Cost: $$$"
-            - feature: "Overall Efficiency: ENERGY STAR® certified"
-            - feature: "Cooling SEER: Up to 17"
-            - feature: "Cooling EER: Up to 13.5"
-            - feature: "Compressor Type: Single-stage"
-            - feature: "Sound Level (As Low As): 72 decibels"
-            - feature: "Compressor Sound Blanket: Yes"
-        - title: Performance™ 16 Central Air Conditioner
-          image: performance-17-central-air-conditioner-24ACB7.png
           productCode: 24APB6
           description: Up to 17 SEER for enhanced energy savings with standard comfort features.
           features:
@@ -136,17 +86,6 @@ Product:
             - feature: "Compressor Type: Single-stage"
             - feature: "Sound Level (As Low As): 68 decibels"
             - feature: "Compressor Sound Blanket: Yes"
-        - title: Performance™ 14 Compact Central Air Conditioner
-          image: performance-14-compact-air-conditioner-24AHA4.png
-          productCode: 24AHA4
-          description: 14 SEER for moderate energy savings with standard comfort features.
-          features:
-            - feature: "Initial Cost: $$"
-            - feature: "Overall Efficiency: Not ENERGY STAR® certified"
-            - feature: "Cooling SEER: 14"
-            - feature: "Cooling EER: up to 12.2"
-            - feature: "Compressor Type: Single-stage"
-            - feature: "Sound Level (As Low As): 66 decibels"
         - title: Performance™ 13 Central Air Conditioner
           image: performance-13-central-air-conditioner-24ACB3.png
           productCode: 24ACB3

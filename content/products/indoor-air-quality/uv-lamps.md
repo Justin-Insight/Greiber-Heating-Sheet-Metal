@@ -23,15 +23,6 @@ Product:
             - feature: "Style: Double Bulb"
             - feature: "Voltage: 115V or 230V"
             - feature: "Wattage: 53 watts"
-        - title: Performance™ Ultraviolet Germicidal UV Light
-          image: performance-ultraviolet-germicidal-uv-light-UVLCC1LP.png
-          productCode: UVLCC1LP
-          description: Single bulb germicidal ultraviolet lamp can kill mold and bacteria that may form on your indoor cooling coil.
-          features:
-            - feature: "Initial Cost: $"
-            - feature: "Style: Single Bulb"
-            - feature: "Voltage: 115V or 230V"
-            - feature: "Wattage: 27 watts"
 ---
 
 Mold and mildew can impact your indoor air quality if they build up inside your HVAC system’s indoor cooling coil. Request installation of our UV lights to kill mold and mildew on the indoor cooling coil.

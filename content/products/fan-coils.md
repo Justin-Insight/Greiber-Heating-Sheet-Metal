@@ -22,13 +22,6 @@ Product:
           features:
             - feature: "Initial Cost: $$$"
             - feature: "Blower Motor Type: Variable-speed"
-        - title: Infinity® Fan Coil
-          image: infinity-fan-coil-FE4.png
-          productCode: FE5
-          description: Compatible with Infinity system outdoor units and includes a variable-speed fan that supports premium energy savings and comfort features.
-          features:
-            - feature: "Initial Cost: $$$"
-            - feature: "Blower Motor Type: Variable-speed"
 
     - name: Performance™® Series
       description: "Efficient, reliable performance:"
@@ -44,13 +37,6 @@ Product:
           features:
             - feature: "Initial Cost: $$"
             - feature: "Blower Motor Type: Variable-speed"
-        - title: Performance™ Fan Coil
-          image: infinity-fan-coil-FE4.png
-          productCode: FZ4A
-          description: Multi-speed fan for enhanced energy savings capabilities and comfort features.
-          features:
-            - feature: "Initial Cost: $$"
-            - feature: "Blower Motor Type: Multi-speed"
 ---
 
 A fan coil is an indoor unit of a heating and cooling system. It controls your home environment by moving air inside your home and can also affect your indoor humidity. As a complement to your air conditioner or heat pump, our variable-speed fan coil units can give you premium comfort and energy-saving performance.With an optional electric heat strip, a fan coil can also provide heat to your home if you live in milder climates.

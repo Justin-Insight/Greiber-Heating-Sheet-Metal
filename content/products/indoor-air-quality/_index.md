@@ -1,5 +1,5 @@
 ---
-title: Home Air Quality
+title: Indoor Air Quality
 featuredImage: infinity-air-purifier-DCAPA.png
 image_alt: Carrier Home Air Quality
 page_title: Indoor Air Quality Systems

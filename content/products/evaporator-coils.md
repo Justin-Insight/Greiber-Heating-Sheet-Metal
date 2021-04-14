@@ -29,13 +29,6 @@ Product:
           features:
             - feature: "Coil Material: All aluminum"
             - feature: "20-Gauge Galvanized Steel Cabinet: Yes"
-        - title: Performance™ Slab Style Evaporator Coil
-          image: performance-slab-style-evaporator-coil-CSPHP.png
-          productCode: CSPHP
-          description: Our slab coil design can be installed in horizontal applications.
-          features:
-            - feature: "Coil Material: All aluminum"
-            - feature: "20-Gauge Galvanized Steel Cabinet: Yes"
         - title: Performance™ Uncased N Evaporator Coil
           image: performance-uncased-n-evaporator-coil-CNPVU.png
           productCode: CNPVU
@@ -54,13 +47,6 @@ Product:
           image: performance-cased-a-evaporator-coil-CAPVP.png
           productCode: CAPVP
           description: Our cased A coil design can be installed in upflow and downflow applications.
-          features:
-            - feature: "Coil Material: All aluminum"
-            - feature: "20-Gauge Galvanized Steel Cabinet: Not applicable"
-        - title: Performance™  Multipoise Cased A Evaporator Coil
-          image: performance-multipoise-cased-a-evaporator-coil-CAPMP.png
-          productCode: CAPMP
-          description: Our cased A coil design can be installed in multipoise applications.
           features:
             - feature: "Coil Material: All aluminum"
             - feature: "20-Gauge Galvanized Steel Cabinet: Not applicable"
