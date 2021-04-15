@@ -39,7 +39,7 @@ Greiber Heating & Sheet Metal is a locally owned and operated family business in
 
 Devon’s great grandfather Art Greiber built the business in 1945 while tending to the family farm before his son Leo Greiber took over and moved the business to O’Malley Street in Waunakee in 1958. Devon’s father Marv Greiber joined the family business after college in 1975, and eventually moved the business to its current location on Main Street in 2000.
 
-For decades, residents of Dane, Sauk and Columbia Counties have relied on the friendly, professional and custom service of our highly skilled and trained technicians. Also, a Factory Authorized Carrier dealer since 1983, we know the long-standing value of high-quality equipment. We supply and install Energy Star Carrier products for all homes—big and small—including furnaces, air purifiers, humidifiers, air conditioning systems, geothermal heating solutions and more. For your well-being and convenience, we also provide:
+For decades, residents of Dane, Sauk and Columbia Counties have relied on the friendly, professional and custom service of our highly skilled and trained technicians. As a Carrier dealer since 1983, we know the long-standing value of high-quality equipment. We supply and install Energy Star Carrier products for all homes—big and small—including furnaces, air purifiers, humidifiers, air conditioning systems, geothermal heating solutions and more. For your well-being and convenience, we also provide:
 
 - Courteous and experienced technicians
 - 24-hour emergency service
