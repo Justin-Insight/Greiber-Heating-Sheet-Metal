@@ -66,6 +66,66 @@ summaryLength = 30
     url  = "/products/"
     weight = 2
 
+  [[menu.main]]
+    parent = "Products"
+    name = "Air Conditioners"
+    weight = 1
+    url = "/products/air-conditioners/"
+
+  [[menu.main]]
+    parent = "Products"
+    name = "Furnaces"
+    weight = 2
+    url = "/products/furnaces/"
+
+  [[menu.main]]
+    parent = "Products"
+    name = "Heat Pumps"
+    weight = 3
+    url = "/products/heat-pumps/"
+
+  [[menu.main]]
+    parent = "Products"
+    name = "Ductless Systems"
+    weight = 4
+    url = "/products/ductless-systems/"
+
+  [[menu.main]]
+    parent = "Products"
+    name = "Smart Thermostats"
+    weight = 5
+    url = "/products/thermostats/"
+
+  [[menu.main]]
+    parent = "Products"
+    name = "Evaporator Coils"
+    weight = 6
+    url = "/products/evaporator-coils/"
+
+  [[menu.main]]
+    parent = "Products"
+    name = "Boilers"
+    weight = 7
+    url = "/products/boilers/"
+
+  [[menu.main]]
+    parent = "Products"
+    name = "Garage Heaters"
+    weight = 8
+    url = "/products/garage-heaters/"
+
+  [[menu.main]]
+    parent = "Products"
+    name = "Fan Coils"
+    weight = 9
+    url = "/products/fan-coils/"
+
+  [[menu.main]]
+    parent = "Products"
+    name = "Indoor Air Quality"
+    weight = 10
+    url = "/products/indoor-air-quality/"
+
 [[menu.main]]
     name = "About"
     url  = "/about/"
@@ -75,6 +135,30 @@ summaryLength = 30
     name = "Services"
     url  = "/services/"
     weight = 4
+
+  [[menu.main]]
+    parent = "Services"
+    name = "Residential Heating Services"
+    weight = 1
+    url = "/services/residential-heating/"
+
+  [[menu.main]]
+    parent = "Services"
+    name = "Residential Cooling Services"
+    weight = 2
+    url = "/services/residential-cooling/"
+
+  [[menu.main]]
+    parent = "Services"
+    name = "Indoor Air Quality Services"
+    weight = 3
+    url = "/services/indoor-air-quality-services/"
+
+  [[menu.main]]
+    parent = "Services"
+    name = "Ductless Split Systems"
+    weight = 4
+    url = "/services/ductless-split-systems/"
 
 [[menu.main]]
     name = "Contact"

@@ -24,19 +24,32 @@
   <div class="primary-nav-container">
     <nav class="nav primary-nav">
       <div class="container-wide">
-        {{ with .Site.Menus.main }}
+        {{ with site.Menus.main }}
         <ul class="nav-list">
           {{ range . }}
-          <li class="nav-list-item">
-            <a class="nav-item" href="{{ .URL | absLangURL}}" aria-label="{{ .Name }}"
+          {{ if .HasChildren }}
+          <li class="nav-list__item nav-list__dropdown-parent">
+            <a class="nav-list__link" href="{{ .URL | absLangURL}}" aria-label="{{ .Name }}"
+              title="{{ .Name }}">{{ .Name }}
+              {{ partial "svg-icons/chevron-down.svg" . }}
+            </a>
+              <ul class="nav-list__dropdown">
+                {{ range .Children }}
+                <li class="nav-list__item">
+                  <a class="nav-list__link" href="{{ .URL | absLangURL}}" aria-label="{{ .Name }}"
+              title="{{ .Name }}">{{ .Name }}</a>
+                </li>
+                {{ end }}
+              </ul>
+          </li>
+          {{ else }}
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="{{ .URL | absLangURL }}" aria-label="{{ .Name }}"
               title="{{ .Name }}">{{ .Name }}</a>
           </li>
-          {{ end }}
-          <!-- <li class="nav-list-item appointment-list-item">
-            <a class="nav-item appointment" href="https://www.carrier.com/residential/en/us/find-a-dealer/schedule-now/?zipcode=53597&dealerId=4739&country=USA&utm_content=dealersite" aria-label="Request an Appointment"
-            title="Request an Appointment" target="_blank" rel="noreferrer">Request an Appointment</a>
-          </li> -->
-          </ul>
+        {{ end }}
+        {{ end }}
+        </ul>
         {{ end }}
       </div>
     </nav>
@@ -44,8 +57,8 @@
       {{ with .Site.Menus.main }}
       <ul class="nav-list">
           {{ range . }}
-          <li class="nav-list-item">
-            <a class="nav-item" href="{{ .URL | absLangURL }}" aria-label="{{ .Name }}"
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="{{ .URL | absLangURL }}" aria-label="{{ .Name }}"
               title="{{ .Name }}">{{ .Name }}</a>
           </li>
           {{ end }}

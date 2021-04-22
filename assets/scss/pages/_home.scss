@@ -17,11 +17,13 @@
       rgba(0, 0, 0, 0.2) 100%
     );
   }
-  h1 {
-    color: $white;
+  .hero__inner {
     padding: 5rem 0;
     @include breakpoint(md) {
       padding: 0;
+    }
+    h1 {
+      color: $white;
     }
   }
 }
