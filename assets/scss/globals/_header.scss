@@ -124,7 +124,7 @@
       color: $white;
     }
   }
-  &__dropdown-parent {
+  &__has-dropdown {
     &:hover,
     &:focus {
       .nav-list__dropdown {
@@ -154,6 +154,11 @@
         background-color: $primaryColor;
       }
     }
+  }
+}
+.dropdown-open {
+  .nav-list__dropdown {
+    transform: scaleY(1);
   }
 }
 .current {
