@@ -128,7 +128,7 @@
     &:hover,
     &:focus {
       .nav-list__dropdown {
-        transform: scaleY(100%);
+        transform: scaleY(1);
       }
       svg {
         transform: rotate(180deg);
@@ -140,7 +140,7 @@
     z-index: -1;
     display: flex;
     flex-direction: column;
-    transform: scaleY(0%);
+    transform: scaleY(0);
     transform-origin: top;
     transition: 0.2s ease-out;
     background: $secondaryColor;
