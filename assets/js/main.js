@@ -11,7 +11,6 @@ const menu = document.querySelector(".mobile-nav .nav-list");
 const hamburger = document.querySelector(".hamburger");
 const navClasses = document.querySelector('.site-header');
 const menuItems = document.querySelectorAll('.nav-list__has-dropdown');
-const dropdown = document.querySelector('.dropdown-open');
 
 Array.prototype.forEach.call(menuItems, function(el, i){
 

@@ -3,22 +3,36 @@
 <div class="fade-wrapper" data-scroll-section>
     <div class="sitemap-content container padding-top-4 padding-bottom-4">
         <div class="flex flex-column flex-row-m">
-            <div class="w-100 w-30-m">
+            <div class="w-100 w-50-m">
                 <h3>Pages</h3>
-                <ul class="sitemap-nav-list">
-                    {{ with .Site.Menus.main }}
+                <div class="sitemap-nav-list">
+                    {{ with site.Menus.main }}
                     <ul>
-                        {{ range . }}
-                        <li>
-                          <a href="{{ .URL | absLangURL}}" aria-label="{{ .Name }}"
-                            title="{{ .Name }}">{{ .Name }}</a>
-                        </li>
-                        {{ end }}
+                    {{ range . }}
+                    {{ if .HasChildren }}
+                    <li>
+                        <a href="{{ .URL | absLangURL}}" aria-label="{{ .Name }}" title="{{ .Name }}">{{ .Name }}</a>
+                        <ul>
+                            {{ range .Children }}
+                            <li>
+                            <a href="{{ .URL | absLangURL}}" aria-label="{{ .Name }}"
+                        title="{{ .Name }}" tab-index="-1">{{ .Name }}</a>
+                            </li>
+                            {{ end }}
                         </ul>
+                    </li>
+                    {{ else }}
+                    <li>
+                        <a href="{{ .URL | absLangURL }}" aria-label="{{ .Name }}"
+                        title="{{ .Name }}">{{ .Name }}</a>
+                    </li>
                     {{ end }}
-                </ul>
+                    {{ end }}
+                    </ul>
+                    {{ end }}
+                </div>
             </div>
-            <div class="w-100 w-70-m">
+            <div class="w-100 w-50-m">
             </div>
         </div>
     </div>
