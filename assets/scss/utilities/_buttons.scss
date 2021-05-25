@@ -32,6 +32,15 @@
     $primaryColor 100%
   );
 }
+.btn-external {
+  svg {
+    width: 15px;
+    height: 15px;
+    fill: $white;
+    stroke: $white;
+    margin-left: 15px;
+  }
+}
 .center-button {
   margin: 0 auto;
 }
