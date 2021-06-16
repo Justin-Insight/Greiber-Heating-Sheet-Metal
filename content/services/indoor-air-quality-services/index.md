@@ -4,7 +4,16 @@ page_title: Improve the Air Quality of Your Home
 hero_title: Improve the Air Quality of Your Home
 description: "Greiber Heating & Sheet Metal offers commercial, residential & industrial HVAC, geothermal heating, cooling & ventilation services in Waunakee, Wisconsin."
 short_description: "Improve your indoor air quality with air purifiers from Carrier."
-has_hero_image: true
+
+has_hero_image: "true"
+
+hero_image:
+  hero_image_jpg: indoor-air-quality-hero-2500.jpg
+  hero_image_avif: indoor-air-quality-hero-2500.avif
+  hero_image_avif_1400: indoor-air-quality-hero-1400.avif
+  hero_image_avif_1000: indoor-air-quality-hero-1000.avif
+  hero_image_avif_600: indoor-air-quality-hero-600.avif
+
 image: 3Generations.jpg
 ---
 
@@ -14,7 +23,7 @@ image: 3Generations.jpg
 
 Indoor pollutants like bacteria, dust mites, animal dander, and viruses can deteriorate the quality of air inside your home. We believe that you can improve this by using quality air purifiers from Carrier.
 
-At Greiber Heating & Sheet Metal, we treat your property like our own and will work with you to ensure the best indoor air quality. We'll find the potential problem areas inside your property and provide cleaner solutions that will benefit everyone. <a href="/contact/">Get in touch</a> with us if you have any questions.
+At Greiber Heating & Sheet Metal, we treat your property like our own and will work with you to ensure the best [indoor air quality](/products/indoor-air-quality/). We'll find the potential problem areas inside your property and provide cleaner solutions that will benefit everyone. <a href="/contact/">Get in touch</a> with us if you have any questions.
 
 ![Infinity air purifier](infinity-air-purifier-DCAPA.png)
 

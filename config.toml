@@ -127,14 +127,19 @@ summaryLength = 30
     url = "/products/indoor-air-quality/"
 
 [[menu.main]]
+    name = "Financing"
+    url  = "/financing/"
+    weight = 3
+
+[[menu.main]]
     name = "About"
     url  = "/about/"
-    weight = 3
+    weight = 4
 
 [[menu.main]]
     name = "Services"
     url  = "/services/"
-    weight = 4
+    weight = 5
 
   [[menu.main]]
     parent = "Services"
@@ -163,7 +168,7 @@ summaryLength = 30
 [[menu.main]]
     name = "Contact"
     url  = "/contact/"
-    weight = 5
+    weight = 6
 
 [social]
   facebook = "https://www.facebook.com/GreiberHeatingandSheetMetal/"

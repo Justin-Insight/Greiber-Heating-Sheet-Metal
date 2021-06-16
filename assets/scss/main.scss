@@ -8,29 +8,30 @@
 @import "globals/lists";
 @import "globals/flexbox";
 @import "globals/hover";
-@import "globals/images";
 @import "globals/icons";
 @import "globals/typography";
 @import "globals/background";
 @import "globals/hamburger";
-@import "globals/header";
-@import "globals/footer";
+
+@import "layout/header";
+@import "layout/footer";
 
 @import "pages/default";
 
-@import "utilities/hero";
-@import "utilities/buttons";
-@import "utilities/business-info";
-@import "utilities/contact-forms";
-@import "utilities/awards";
-@import "utilities/featured-block";
-@import "utilities/cards";
-@import "utilities/product-cards";
-@import "utilities/testimonials";
-@import "utilities/breadcrumbs";
-@import "utilities/cta";
-@import "utilities/service-cards";
-@import "utilities/service-sidebar";
+@import "components/images";
+@import "components/hero";
+@import "components/buttons";
+@import "components/business-info";
+@import "components/contact-forms";
+@import "components/awards";
+@import "components/featured-block";
+@import "components/cards";
+@import "components/product-cards";
+@import "components/testimonials";
+@import "components/breadcrumbs";
+@import "components/cta";
+@import "components/service-cards";
+@import "components/service-sidebar";
 
 @import "pages/home";
 @import "pages/services";

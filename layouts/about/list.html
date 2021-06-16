@@ -11,7 +11,7 @@
             <div class="flex flex-column flex-row-m">
                 {{ range .member }}
                 <div class="w-100 w-50-m">
-                    <img src="/images/{{ .image }}" alt="{{ .image_alt }}" class="headshot">
+                    <img src="{{ .image }}" alt="{{ .image_alt }}" class="{{ .name }} headshot">
                     <h4 class="g5">{{ .name }}</h4>
                     <p>{{ .copy }}</p>
                 </div>
