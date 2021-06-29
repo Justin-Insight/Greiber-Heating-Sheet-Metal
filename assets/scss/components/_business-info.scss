@@ -10,7 +10,6 @@
     }
   }
   &__col {
-    align-items: center;
     margin: 0 $ic-200;
     flex: 1;
     @include breakpoint(lg) {
