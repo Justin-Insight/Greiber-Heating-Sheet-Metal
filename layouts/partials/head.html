@@ -43,15 +43,20 @@
     <meta name="twitter:site" content="@p4lm">
     <meta name="twitter:image" content="{{ .Permalink }}{{ .Params.image }}">
 
+    {{ with resources.Get "scss/critical.scss" | toCSS | resources.PostCSS | minify }} <style>{{ .Content | safeCSS }}</style> {{ end }}
+    
     {{ $scss := resources.Get "scss/main.scss" | toCSS }}
     {{ $postcss := $scss | resources.PostCSS | minify }}
-    <link rel="stylesheet" href="{{ $postcss.Permalink }}" media="screen">
+    <link rel="preload" href="{{ $postcss.Permalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ $postcss.Permalink }}"></noscript>
 
     <link rel="preconnect" href="https://www.google-analytics.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="preload" href="../fonts/poppins-v15-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../fonts/poppins-v15-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../fonts/poppins-v15-latin-700.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" as="image" href="/images/background-images/home-hero.jpg">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     {{ "<!--Favicon-->" | safeHTML }}
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
