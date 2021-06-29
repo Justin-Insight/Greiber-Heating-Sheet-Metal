@@ -42,8 +42,6 @@
     <meta name="twitter:description" content="{{ .Description }}">
     <meta name="twitter:site" content="@p4lm">
     <meta name="twitter:image" content="{{ .Permalink }}{{ .Params.image }}">
-
-    {{ with resources.Get "scss/critical.scss" | toCSS | resources.PostCSS | minify }} <style>{{ .Content | safeCSS }}</style> {{ end }}
     
     {{ $scss := resources.Get "scss/main.scss" | toCSS }}
     {{ $postcss := $scss | resources.PostCSS | minify }}
