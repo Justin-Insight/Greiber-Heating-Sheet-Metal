@@ -1,6 +1,6 @@
 ---
 title: Garage Heaters
-featuredImage: garage-heater.png
+featuredImage: NexusUnitFront.png
 image_alt: Carrier Garage Heater
 page_title: Garage Heaters
 description: Garage Heaters tap into the energy right in your own backyard. Explore our garage heaters to find yours.

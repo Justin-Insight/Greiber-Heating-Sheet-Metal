@@ -35,10 +35,10 @@
                 <div class="cards__col">
                     <img src="{{.Site.BaseURL}}/images/products/{{ .image }}" alt="" width="640" height="360" loading="lazy">
                     <div class="cards__details">
-                        <h6 class="no-margin">{{ .title }}</h6>
+                        <h3 class="h4">{{ .title }}</h6>
                         <p class="b">{{ .productCode }}</p>
                         <p class="padding-bottom-2">{{ .description }}</p>
-                        <h6>Top Features</h6>
+                        <h4 class="h5 no-margin">Top Features</h6>
                         <ul>
                             {{ range .features }}
                                 <li>{{ .feature }}</li>

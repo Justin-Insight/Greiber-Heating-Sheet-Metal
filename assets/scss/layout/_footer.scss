@@ -1,16 +1,16 @@
 .footer {
   &__copyright {
-    background-color: $primaryColor;
+    background-color: $primary-color;
     color: $white;
-    padding: 1rem;
-    font-size: 1.4rem;
+    padding: $ic-200;
+    font-size: $ic-100;
   }
   &__copyright-wrapper {
     align-items: center;
     @include breakpoint(md) {
       justify-content: space-between;
       span {
-        margin-right: 1rem;
+        margin-right: $ic-200;
       }
     }
   }
@@ -25,15 +25,16 @@
     position: relative;
     display: flex;
     padding: 0;
-    margin-bottom: 2rem;
+    margin-bottom: $ic-300;
   }
   &__nav-list-item {
     list-style-type: none;
   }
   &__nav-item {
     color: $white;
-    &:hover {
-      color: $accentColor;
+    &:hover,
+    &:focus {
+      color: $accent-color;
     }
   }
   &__nav-list-item + &__nav-list-item {

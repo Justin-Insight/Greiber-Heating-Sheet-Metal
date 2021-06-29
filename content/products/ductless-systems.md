@@ -8,7 +8,7 @@ has_hero_image: true
 weight: 4
 Product:
   productLine:
-    - name: Infinity® Series
+    - name: Infinity System
       description: "Precise comfort and controllability:"
       benefits:
         - benefit: Energy efficient—SEER rating up to 42 and HSPF rating up to 15
@@ -41,23 +41,23 @@ Product:
             - feature: "Application: Residential"
             - feature: "Wireless Remote: Yes"
 
-    - name: Performance® Series
+    - name: Performance Series
       description: "Flexible, efficient performance:"
       benefits:
         - benefit: Energy efficient —SEER rating up to 25 and HSPF rating up to 12.5
         - benefit: Advanced temperature control and “Follow Me” feature sensing the temperature at the remote control
         - benefit: Quiet indoor comfort—(minimum 27 dBA)
       products:
-        - title: Performance™ Heat Pump with Basepan Heater
-          image: ductless-systems-performance-heat-pump-with-basepan-heater-38MAR.png
-          productCode: 38MAR
-          description: Single-zone system with up to 25 SEER and 12 HSPF for premium energy savings.
+        - title: Performance™ Heat Pump
+          image: performance-series-heat-pump-38MARB.png
+          productCode: 38MARB
+          description: Single-zone system with up to 28.1 SEER and 13 HSPF for premium energy savings.
           features:
             - feature: "Type: Single-zone"
-            - feature: "Overall Efficiency: Select sizes ENERGY STAR® certified"
-            - feature: "Cooling Efficiency: Up to 25.0 SEER"
-            - feature: "Heating Efficiency: Up to 12.0 HSPF"
-            - feature: "Sound Level (As Low As): 52.5 decibels"
+            - feature: "Overall Efficiency: All sizes ENERGY STAR® certified"
+            - feature: "Cooling Efficiency: Up to 28.1 SEER"
+            - feature: "Heating Efficiency: Up to 13.0 HSPF"
+            - feature: "Sound Level (As Low As): 54 decibels"
             - feature: "Application: Residential"
             - feature: "Wireless Remote: Not applicable"
         - title: Performance™ Multi-Zone Heat Pump with Basepan Heater

@@ -8,7 +8,7 @@ has_hero_image: true
 weight: 2
 Product:
   productLine:
-    - name: Infinity® Series
+    - name: Infinity System
       description: "Top-of-the-line comfort, performance, and efficiency:"
       benefits:
         - benefit: Energy efficient—AFUE rating up to 98.5 percent
@@ -36,7 +36,7 @@ Product:
             - feature: "Gas Valve Technology: Two-stage"
             - feature: "Blower Motor Type: Variable-speed"
 
-    - name: Performance™ Series
+    - name: Performance Series
       description: "Perfect balance between performance and cost:"
       benefits:
         - benefit: Energy efficient—AFUE rating up to 96.5 percent
@@ -53,28 +53,8 @@ Product:
             - feature: "Heating AFUE: Up to 96.5%"
             - feature: "Gas Valve Technology: Two-stage"
             - feature: "Blower Motor Type: Variable-speed"
-        - title: Performance™ 80 Gas Furnace
-          image: performance-80-gas-furnace-58SP.png
-          productCode: 58SP
-          description: 80% AFUE for moderate energy savings with standard comfort features.
-          features:
-            - feature: "Initial Cost: $$"
-            - feature: "Overall Efficiency: Not ENERGY STAR® certified"
-            - feature: "Heating AFUE: 80%"
-            - feature: "Gas Valve Technology: Single-stage"
-            - feature: "Blower Motor Type: Variable-speed"
-        - title: Performance™ 80 Gas Furnace
-          image: performance-80-gas-furnace-58SP.png
-          productCode: 58TP
-          description: 80% AFUE for moderate energy savings with enhanced comfort features.
-          features:
-            - feature: "Initial Cost: $$"
-            - feature: "Overall Efficiency: Not ENERGY STAR® certified"
-            - feature: "Heating AFUE: 80%"
-            - feature: "Gas Valve Technology: Two-stage"
-            - feature: "Blower Motor Type: Variable-speed"
 
-    - name: Comfort™ Series
+    - name: Comfort Series
       description: "Our most budget-friendly, energy-efficient heating for your home:"
       benefits:
         - benefit: Energy efficient – AFUE rating up to 96.5 percent

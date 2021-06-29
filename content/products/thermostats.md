@@ -7,7 +7,7 @@ description: Smart thermostats give you easy-to-use control of your home comfort
 weight: 4
 Product:
   productLine:
-    - name: Infinity® Series
+    - name: Infinity System
       description: "Top-of-the-line performance and comfort:"
       benefits:
         - benefit: For Infinity Systems advanced Greenspeed® Intelligence

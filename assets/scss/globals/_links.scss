@@ -1,22 +1,23 @@
 a {
-  color: $primaryColor;
+  color: $primary-color;
   transition: 0.3s ease;
   display: inline-block;
+
   &:hover,
   &:focus {
-    color: $accentColor;
-    outline-color: $accentColor;
+    color: $accent-color;
+    outline-color: $accent-color;
   }
 }
 .primary-link,
 .secondary-link {
   text-decoration: none;
   position: relative;
-  color: $accentColor;
+  color: $accent-color;
   display: inline-block;
 }
-.primary-link:after,
-.secondary-link:after {
+.primary-link::after,
+.secondary-link::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -26,14 +27,15 @@ a {
   transform: scaleX(1);
   transition: 300ms ease-in-out;
 }
-.secondary-link:after {
+.secondary-link::after {
   content: "";
-  background-color: $accentColor;
+  background-color: $accent-color;
 }
 .primary-link,
 .secondary-link {
-  &:hover {
-    &:after {
+  &:hover,
+  &:focus {
+    &::after {
       transform: scaleX(0);
     }
   }
@@ -61,12 +63,13 @@ a {
 }
 .call-link {
   h2 {
-    font-size: 2.4rem;
+    font-size: $ic-300;
+
     @include breakpoint(sm) {
-      font-size: 3.6rem;
+      font-size: $ic-400;
     }
     @include breakpoint(md) {
-      font-size: 4.9rem;
+      font-size: $ic-500;
     }
   }
 }

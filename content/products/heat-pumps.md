@@ -8,7 +8,7 @@ has_hero_image: true
 weight: 3
 Product:
   productLine:
-    - name: Infinity® Series
+    - name: Infinity System
       description: "Precise comfort, performance, and efficiency:"
       benefits:
         - benefit: Energy efficient—SEER rating up to 24, EER rating up to 15, and HSPF rating up to 13
@@ -44,29 +44,7 @@ Product:
             - feature: "Silencer System II Design: Yes"
             - feature: "Compressor Sound Blanket: Yes"
 
-    - name: Performance™® Series
-      description: "Flexible, efficient performance:"
-      benefits:
-        - benefit: Energy efficient—SEER rating up to 17, EER rating up to 13, and HSPF rating up to 9.5
-        - benefit: Superior humidity and temperature control
-        - benefit: Quiet comfort
-      products:
-        - title: Performance™ 16 Heat Pump
-          image: performance-16-heat-pump-25HCB6.png
-          productCode: 25HPB6
-          description: Up to 16 SEER for enhanced energy savings with standard comfort features.
-          features:
-            - feature: "Initial Cost: $$"
-            - feature: "Overall Efficiency: All sizes ENERGY STAR® certified"
-            - feature: "Cooling SEER: Up to 16"
-            - feature: "Cooling EER: Up to 13"
-            - feature: "Heating HSPF: Up to 9.5"
-            - feature: "Compressor Type: Single-stage"
-            - feature: "Sound Level (As Low As): 67 decibels"
-            - feature: "Silencer System II Design: Not applicable"
-            - feature: "Compressor Sound Blanket: Yes"
-
-    - name: Comfort™® Series
+    - name: Comfort Series
       description: "The most economical warm- and cold-weather performance:"
       benefits:
         - benefit: Energy efficient—SEER rating up to 16, EER up to 13, and HSPF rating up to 9.0

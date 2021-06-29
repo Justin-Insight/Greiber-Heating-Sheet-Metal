@@ -1,12 +1,12 @@
 .breadcrumbs-nav {
-  background-color: $primaryColor;
+  background-color: $primary-color;
   color: $white;
   margin: 0;
   padding: 0;
   li {
     list-style-type: none;
     position: relative;
-    &:after {
+    &::after {
       position: absolute;
       top: 2px;
       left: -4px;
@@ -14,15 +14,15 @@
     }
   }
   li:first-of-type {
-    &:after {
+    &::after {
       display: none;
     }
   }
   a {
     color: $white;
-    margin: 0 1rem;
+    margin: 0 $ic-200;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: $ic-200;
   }
 }
 .single-post,
@@ -39,8 +39,8 @@
       padding: 0;
     }
     li {
-      &:after {
-        color: $primaryColor;
+      &::after {
+        color: $primary-color;
       }
     }
     a {
@@ -50,7 +50,7 @@
 }
 .single-product {
   .breadcrumbs-nav {
-    background-color: $lightGray;
+    background-color: $light-gray;
     li:first-of-type {
       a {
         margin-left: 0;

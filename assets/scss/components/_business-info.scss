@@ -11,22 +11,25 @@
   }
   &__col {
     align-items: center;
-    margin: 0 1rem;
+    margin: 0 $ic-200;
     flex: 1;
     @include breakpoint(lg) {
-      margin: 0 2rem;
+      margin: 0 $ic-300;
     }
   }
   &__col-content {
-    margin-left: 1rem;
+    margin-left: $ic-200;
   }
   &__address {
     margin-left: 0;
   }
   p {
     margin: 0;
-    font-size: 1.4rem;
-    line-height: 1.8rem;
+    font-size: $ic-100;
+
+    @include breakpoint(xl) {
+      font-size: $ic-200;
+    }
   }
   a {
     text-decoration: none;
@@ -37,9 +40,9 @@
   .business-info {
     display: flex;
     &__col {
-      margin: 1rem 0;
+      margin: $ic-200 0;
       @include breakpoint(md) {
-        margin: 0 1rem;
+        margin: 0 $ic-200;
       }
     }
   }

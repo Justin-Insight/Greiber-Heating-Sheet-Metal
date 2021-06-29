@@ -1,22 +1,43 @@
 // Colors
-$primaryColor: #0055b2;
-$secondaryColor: #2d75d8;
-$accentColor: #ff873c;
+$primary-color: #0055b2;
+$secondary-color: #2d75d8;
+$accent-color: #ff873c;
 $black: #232323;
-$lightGray: #e9e9e9;
+$light-gray: #e9e9e9;
 $white: #ffffff;
 
 // Overlays
-$whiteOverlay: rgba($white, 0.9);
-$grayOverlay: rgba(0, 0, 0, 0.6);
-$blueOverlay70: rgba($primaryColor, 0.7);
-$blueOverlay95: rgba($primaryColor, 0.95);
-$redOverlay70: rgba(181, 23, 23, 0.7);
-$redOverlay95: rgba(181, 23, 23, 0.95);
+$white-overlay: rgba($white, 0.9);
+$gray-overlay: rgba(0, 0, 0, 0.6);
+$blue-overlay-70: rgba($primary-color, 0.7);
+$blue-overlay-95: rgba($primary-color, 0.95);
+$red-overlay-70: rgba(181, 23, 23, 0.7);
+$red-overlay-95: rgba(181, 23, 23, 0.95);
 
 // Fonts
-$primaryFont: "Poppins", sans-serif;
+$primary-font: "Poppins", sans-serif;
+
+// Scale and rhythm based on a perfect fourth scale
+$ic-100: 0.75rem;
+$ic-200: 1rem;
+$ic-300: 1.333rem;
+$ic-400: 1.777rem;
+$ic-500: 2.369rem;
+$ic-600: 3.157rem;
+$ic-700: 4.209rem;
+
+// Scale and rhythm based on a major third scale
+// $ic-100: 0.8rem;
+// $ic-200: 1rem;
+// $ic-300: 1.25rem;
+// $ic-400: 1.563rem;
+// $ic-500: 1.953rem;
+// $ic-600: 2.441rem;
+// $ic-700: 3.052rem;
 
 // Header spacing
-$mobileHeader: 120px;
-$desktopHeader: 150px;
+$mobileHeader: 150px;
+$desktopHeader: 180px;
+
+$measure-long: 80ch;
+$measure-short: 28ch;

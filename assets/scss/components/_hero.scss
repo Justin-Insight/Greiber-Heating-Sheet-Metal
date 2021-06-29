@@ -7,7 +7,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   margin-left: auto;
-  padding: 6rem 1rem;
+  padding: $ic-700 $ic-200;
   @include breakpoint(md) {
     height: 80vh;
     flex-direction: row;
@@ -35,7 +35,7 @@
 .short-hero {
   position: relative;
   height: 30vh;
-  background-color: $secondaryColor;
+  background-color: $secondary-color;
   @include breakpoint(md) {
     height: auto;
     min-height: 30vh;
@@ -47,7 +47,7 @@
     height: 100%;
     width: 100%;
     content: "";
-    background-color: $grayOverlay;
+    background-color: $gray-overlay;
   }
   &__image {
     height: 30vh;
@@ -82,7 +82,7 @@
   background-position: bottom;
   background-repeat: no-repeat;
   margin-left: auto;
-  padding: 6rem 1rem;
+  padding: $ic-700 $ic-200;
   margin-top: 70px;
   @include breakpoint(md) {
     margin-top: 140px;
@@ -91,6 +91,6 @@
     margin: 0;
   }
 }
-.simple-hero + .padding-top-10 {
-  padding-top: 2rem;
+.simple-hero + .padding-top-6 {
+  padding-top: $ic-300;
 }

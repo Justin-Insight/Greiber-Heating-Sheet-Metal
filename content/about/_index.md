@@ -38,7 +38,7 @@ testimonials:
     author: "- Karly K."
 ---
 
-### Pride and Purpose, Since 1945
+<h2 class="no-margin">Pride and Purpose, Since 1945</h2>
 
 <div class="underline"></div>
 

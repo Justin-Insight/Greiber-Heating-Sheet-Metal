@@ -1,10 +1,10 @@
 .service-sidebar {
   &__nav {
-    padding: 1.5rem 1.5rem 1.5rem 0;
+    padding: $ic-200 $ic-200 $ic-200 0;
   }
   &__list-item {
     list-style: none;
-    padding: 1rem 0;
+    padding: $ic-200 0;
   }
   &__link {
     text-decoration: none;

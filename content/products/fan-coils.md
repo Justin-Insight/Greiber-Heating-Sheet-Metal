@@ -8,7 +8,7 @@ has_hero_image:
 weight: 8
 Product:
   productLine:
-    - name: Infinity® Series
+    - name: Infinity System
       description: "Essential companion to your Infinity System:"
       benefits:
         - benefit: Ultimate comfort and quiet operation
@@ -23,20 +23,20 @@ Product:
             - feature: "Initial Cost: $$$"
             - feature: "Blower Motor Type: Variable-speed"
 
-    - name: Performance™® Series
-      description: "Efficient, reliable performance:"
+    - name: Comfort Series
+      description: "The most economical and reliable companion:"
       benefits:
-        - benefit: Variable-speed blower for improved comfort
-        - benefit: Improved humidity and temperature control
-        - benefit: Quiet comfort
+        - benefit: High efficiency
+        - benefit: Simple operation
+        - benefit: Budget friendly
       products:
-        - title: Performance™ Fan Coil
-          image: infinity-fan-coil-FE4.png
-          productCode: FV4C
-          description: Performance series fan coil with a variable-speed fan for premium energy savings capabilities and comfort features.
+        - title: Comfort™ Fan Coil
+          image: comfort-fan-coil-FB4C.png
+          productCode: FB4C
+          description: Provides moderate energy savings capabilities and comfort features.
           features:
-            - feature: "Initial Cost: $$"
-            - feature: "Blower Motor Type: Variable-speed"
+            - feature: "Initial Cost: $"
+            - feature: "Blower Motor Type: Multi-speed"
 ---
 
 A fan coil is an indoor unit of a heating and cooling system. It controls your home environment by moving air inside your home and can also affect your indoor humidity. As a complement to your air conditioner or heat pump, our variable-speed fan coil units can give you premium comfort and energy-saving performance.With an optional electric heat strip, a fan coil can also provide heat to your home if you live in milder climates.

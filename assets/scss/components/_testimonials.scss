@@ -1,26 +1,27 @@
 .testimonial {
   &__icon {
-    background-color: $primaryColor;
-    height: 5rem;
-    width: 5rem;
+    background-color: $primary-color;
+    height: $ic-700;
+    width: $ic-700;
     border-radius: 50%;
     position: relative;
     top: -35px;
     display: grid;
     place-items: center;
     svg {
-      width: 26px;
+      width: $ic-400;
+      height: $ic-400;
       fill: $white;
     }
   }
   &__col {
     background-color: $white;
     color: $black;
-    padding: 2rem;
+    padding: $ic-300;
     flex: 1 1 300px; /*  No stretching: */
-    margin: 1rem;
+    margin: $ic-200;
   }
   h3 {
-    color: $primaryColor;
+    color: $primary-color;
   }
 }

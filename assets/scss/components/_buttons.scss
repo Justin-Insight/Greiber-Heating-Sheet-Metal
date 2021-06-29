@@ -1,13 +1,13 @@
 .btn {
   position: relative;
   display: inline-block;
-  font-size: 1.8rem;
+  font-size: $ic-200;
   font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
   cursor: pointer;
-  padding: 1rem 2.5rem;
+  padding: $ic-200 $ic-500;
   height: auto;
   text-align: center;
   border: none;
@@ -26,10 +26,10 @@
 .btn.btn-primary {
   background-image: linear-gradient(
     to right,
-    $primaryColor 0%,
-    $secondaryColor 15%,
-    $secondaryColor 85%,
-    $primaryColor 100%
+    $primary-color 0%,
+    $secondary-color 15%,
+    $secondary-color 85%,
+    $primary-color 100%
   );
 }
 .btn-external {

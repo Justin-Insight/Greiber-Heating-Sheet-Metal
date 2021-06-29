@@ -8,7 +8,7 @@ has_hero_image: true
 weight: 5
 Product:
   productLine:
-    - name: Performance™® Series
+    - name: Performance Series
       description: "Reliable, efficient, and durable"
       benefits:
         - benefit: Corrosion-resistant, all-aluminum coils

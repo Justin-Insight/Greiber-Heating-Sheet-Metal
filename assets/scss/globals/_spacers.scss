@@ -1,8 +1,8 @@
 .sp-10 {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: $ic-700;
+  padding-bottom: $ic-700;
 }
 .sp-10 + .sp-10 {
   padding-top: 0;
-  padding-bottom: 10rem;
+  padding-bottom: $ic-700;
 }

@@ -1,15 +1,29 @@
 * {
   box-sizing: border-box;
+  max-width: $measure-long;
+}
+html,
+body,
+div,
+picture,
+section,
+ol,
+header,
+nav,
+main,
+footer {
+  max-width: none;
 }
 body {
   background-color: $white;
-  font-family: $primaryFont;
+  font-family: $primary-font;
   overflow-x: hidden;
 }
 .site-main {
   opacity: 1;
   margin-top: $mobileHeader;
-  @include breakpoint(md) {
+
+  @include breakpoint(sm) {
     margin-top: $desktopHeader;
   }
 }

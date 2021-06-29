@@ -4,12 +4,12 @@
 }
 .single-product {
   @include breakpoint(md) {
-    padding-top: 6rem;
+    padding-top: $ic-700;
   }
 }
 .boilers,
 .garage-heaters {
   .single-product {
-    padding-bottom: 2rem;
+    padding-bottom: $ic-600;
   }
 }

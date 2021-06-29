@@ -8,7 +8,7 @@ has_hero_image: true
 weight: 1
 Product:
   productLine:
-    - name: Infinity® Series
+    - name: Infinity System
       description: The highest degree of comfort management
       benefits:
         - benefit: Energy efficient - SEER ratings up to 26 for premium energy savings
@@ -55,7 +55,7 @@ Product:
             - feature: "Silencer System II Design: Yes"
             - feature: "Compressor Sound Blanket: Yes"
 
-    - name: Performance® Series
+    - name: Performance Series
       description: Perfect balance between performance and cost
       benefits:
         - benefit: SEER ratings up to 17 for enhanced energy savings
@@ -86,18 +86,27 @@ Product:
             - feature: "Compressor Type: Single-stage"
             - feature: "Sound Level (As Low As): 68 decibels"
             - feature: "Compressor Sound Blanket: Yes"
-        - title: Performance™ 13 Central Air Conditioner
-          image: performance-13-central-air-conditioner-24ACB3.png
-          productCode: 24ACB3
-          description: 13 SEER for moderate energy savings with standard comfort features.
+        
+    - name: Comfort Series
+      description: The most economical energy-efficient cooling for your home
+      benefits:
+        - benefit: SEER ratings up to 17 for enhanced energy savings
+        - benefit: Simple operation
+        - benefit: Budget friendly
+      products:
+        - title: Comfort™ 13 Central Air Conditioner
+          image: comfort-13-central-air-conditioner-24ABB3.png
+          productCode: 24ABB3
+          description: Up to 17 SEER for enhanced energy savings with enhanced comfort features.
           features:
-            - feature: "Initial Cost: $$"
+            - feature: "Initial Cost: $"
             - feature: "Overall Efficiency: Not ENERGY STAR® certified"
             - feature: "Cooling SEER: 13"
             - feature: "Cooling EER: 11"
             - feature: "Compressor Type: Single-stage"
-            - feature: "Sound Level (As Low As): 74 decibels"
-            - feature: "Compressor Sound Blanket: Yes"
+            - feature: "Sound Level (As Low As): 73 decibels"
+            - feature: "Silencer System II Design: Not applicable"
+            - feature: "Compressor Sound Blanket: Not applicable"
 ---
 
 When selecting an air conditioner for your home, you have an array of choices. We have the information you need to research your options, whatever your budget or your needs—from a single air conditioner to an entire Carrier system. Our lineup of central air conditioners allows you to choose the best solution to meet your needs.

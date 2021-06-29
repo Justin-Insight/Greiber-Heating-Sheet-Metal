@@ -9,14 +9,14 @@
   }
 }
 .emergency-cta {
-  background-color: $primaryColor;
+  background-color: $primary-color;
   color: $white;
-  padding: 2rem;
+  padding: $ic-300;
   @include breakpoint(md) {
-    padding: 2rem 5rem;
+    padding: $ic-300 $ic-600;
   }
   @include breakpoint(xl) {
-    padding: 5rem;
+    padding: $ic-600;
   }
   a,
   h2,
@@ -27,8 +27,8 @@
     text-decoration: none;
   }
   svg {
-    width: 3rem;
-    height: 3rem;
+    width: $ic-400;
+    height: $ic-400;
   }
 }
 .emergency-phone {
@@ -37,35 +37,35 @@
 }
 .contact-form {
   background-color: $white;
-  padding: 2rem;
+  padding: $ic-300;
   box-shadow: 8px 8px 48px rgba(25, 25, 96, 0.25);
   @include breakpoint(md) {
-    padding: 2rem 5rem;
+    padding: $ic-300 $ic-600;
   }
   @include breakpoint(xl) {
-    padding: 5rem;
+    padding: $ic-600;
   }
   .contact-form__form-group label {
-    font-size: 1.6rem;
+    font-size: $ic-200;
     font-weight: 700;
-    color: $primaryColor;
+    color: $primary-color;
   }
   .contact-form__form-group input,
   .contact-form__form-group textarea {
-    background-color: $lightGray;
+    background-color: $light-gray;
     border: none;
     width: 100%;
-    padding: 0.5rem 1rem;
-    margin-bottom: 0.5rem;
+    padding: $ic-100 $ic-300;
+    margin-bottom: $ic-100;
     &:focus {
-      outline: 1px solid $primaryColor;
+      outline: 1px solid $primary-color;
     }
   }
   &__form-group input {
-    height: 4rem;
+    height: $ic-600;
   }
   &__form-group textarea {
-    height: 8rem;
+    height: $ic-700;
   }
   &__btn {
     border: none;

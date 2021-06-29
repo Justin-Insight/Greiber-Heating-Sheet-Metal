@@ -5,13 +5,13 @@
   background-attachment: fixed;
   position: relative;
   z-index: 1;
-  &:after {
+  &::after {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: $blueOverlay95;
+    background-color: $blue-overlay-95;
     background-image: linear-gradient(
       90deg,
       rgba(0, 0, 0, 0.8) 0%,
@@ -33,30 +33,30 @@
     flex: 2;
   }
   &__col-content {
-    padding: 2rem;
+    padding: $ic-300;
   }
   &__image {
-    max-width: 25rem;
-    padding: 1rem;
+    max-width: 250px;
+    padding: $ic-200;
     img {
       object-fit: cover;
     }
   }
   .authorized-dealer-logo {
     max-width: 150px;
-    padding: 0 0 2rem 0;
+    padding: 0 0 $ic-300 0;
   }
 }
 .about {
   .full-width-featured {
-    &:after {
-      background-color: $whiteOverlay;
+    &::after {
+      background-color: $white-overlay;
     }
     &__heading {
-      color: $primaryColor;
+      color: $primary-color;
     }
     &__underline {
-      background-color: $accentColor;
+      background-color: $accent-color;
     }
     &__body {
       color: $black;
@@ -70,8 +70,8 @@
     max-width: 100%;
     img {
       width: 50%;
-      padding: 1rem;
-      max-width: 25rem;
+      padding: $ic-200;
+      max-width: 16rem;
       height: 100%;
     }
   }
