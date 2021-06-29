@@ -1,10 +1,18 @@
 .site-cta {
-  background-image: url("/images/background-images/cta-background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: $secondary-color;
   position: relative;
   z-index: 1;
+
+  @include breakpoint(md) {
+    background-image: url("/images/background-images/cta-background-laptop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  @include breakpoint(lg) {
+    background-image: url("/images/background-images/cta-background.jpg");
+  }
+
   &::after {
     position: absolute;
     z-index: -1;
