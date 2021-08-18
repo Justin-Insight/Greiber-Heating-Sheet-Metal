@@ -19,7 +19,8 @@
     margin-top: $ic-400;
 
     @include breakpoint(md) {
-      bottom: -300px;
+      position: absolute;
+      bottom: 0;
       right: 0;
     }
   }
