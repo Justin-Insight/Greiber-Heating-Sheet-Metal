@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ partial "hero" . }}
-<section class="container blog-container sp-10" data-scroll-section>
+<section class="wrapper blog-container sp-10">
   <h2 class="no-margin">Heating and Cooling Resources</h2>
   <div class="underline"></div>
   {{ range .Paginator.Pages.ByDate.Reverse }}

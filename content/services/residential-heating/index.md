@@ -14,9 +14,10 @@ hero_image:
 image: Dealer_Couple1_Basement_Furnace.jpg
 ---
 
-<h2 class="no-margin">Feel Warm and Toasty at Home With Our Heating Services</h2>
-
-<div class="underline"></div>
+<div>
+  <h2 class="no-margin">Feel Warm and Toasty at Home With Our Heating Services</h2>
+  <div class="underline"></div>
+</div>
 
 If you look forward to enjoying a cozy winter at home, you should ensure that your heating system is working perfectly at all times. No matter the problem, the professionals at Greiber Heating & Sheet Metal will be able to diagnose it quickly and provide the necessary repair.
 

@@ -2,6 +2,7 @@
   box-sizing: border-box;
   max-width: $measure-long;
 }
+
 html,
 body,
 div,
@@ -14,22 +15,22 @@ main,
 footer {
   max-width: none;
 }
+
 body {
   background-color: $white;
   font-family: $primary-font;
   overflow-x: hidden;
 }
+
 .site-main {
   opacity: 1;
   margin-top: $mobileHeader;
 
-  @include breakpoint(sm) {
+  @include breakpoint(md) {
     margin-top: $desktopHeader;
   }
 }
-ul {
-  margin: 0;
-}
+
 // Style highlight to match our themes colors
 ::-moz-selection {
   background: rgba(0, 85, 178, 0.8);

@@ -3,9 +3,11 @@
   color: $white;
   margin: 0;
   padding: 0;
+
   li {
     list-style-type: none;
     position: relative;
+
     &::after {
       position: absolute;
       top: 2px;
@@ -13,11 +15,13 @@
       content: ">";
     }
   }
+
   li:first-of-type {
     &::after {
       display: none;
     }
   }
+
   a {
     color: $white;
     margin: 0 $ic-200;
@@ -25,32 +29,39 @@
     font-size: $ic-200;
   }
 }
+
 .single-post,
 .single-product,
 .simple-hero {
   .breadcrumbs-nav {
     background-color: $white;
     display: none;
+
     @include breakpoint(md) {
       display: flex;
     }
+
     &__wrapper {
       width: 100%;
       padding: 0;
     }
+
     li {
       &::after {
         color: $primary-color;
       }
     }
+
     a {
       color: $black;
     }
   }
 }
+
 .single-product {
   .breadcrumbs-nav {
     background-color: $light-gray;
+
     li:first-of-type {
       a {
         margin-left: 0;

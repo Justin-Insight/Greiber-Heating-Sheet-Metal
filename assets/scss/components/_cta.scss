@@ -9,6 +9,7 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
   @include breakpoint(lg) {
     background-image: url("/images/background-images/cta-background.jpg");
   }
@@ -32,21 +33,27 @@
     @include breakpoint(md) {
       margin-left: 4rem;
     }
+
     @include breakpoint(lg) {
       margin-left: 6rem;
     }
+
     @include breakpoint(xl) {
       margin-left: 13rem;
     }
   }
+
   .contact-form {
     padding: $ic-300;
   }
+
   .business-info {
     width: 100%;
+
     &__wrapper {
       width: 100%;
     }
+
     a,
     p,
     svg {

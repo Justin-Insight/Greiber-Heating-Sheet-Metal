@@ -5,7 +5,7 @@
   <div class="mobile-phone bg-blue">
     <a href="tel:{{ .Site.Params.phone }}" class="mobile-phone__link">Call Greiber Heating: {{ .Site.Params.phone }}</a>
   </div>
-  <div class="pre-nav container-wide flex">
+  <div class="pre-nav wrapper-wide flex">
     <div class="logo-wrapper">
       <a class="brand-logo" href="{{ site.BaseURL }}">
         {{ if site.Params.logo }}
@@ -25,7 +25,7 @@
   </div>  
   <div class="primary-nav-container">
     <div class="nav primary-nav">
-      <div class="container-wide">
+      <div class="wrapper-wide">
         <nav role="navigation" aria-label="primary-navigation">
           {{ with site.Menus.main }}
           <ul class="nav-list" role="list">

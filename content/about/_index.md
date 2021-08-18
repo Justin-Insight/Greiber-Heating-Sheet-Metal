@@ -38,9 +38,10 @@ testimonials:
     author: "- Karly K."
 ---
 
-<h2 class="no-margin">Pride and Purpose, Since 1945</h2>
-
-<div class="underline"></div>
+<div>
+  <h2 class="no-margin">Pride and Purpose, Since 1945</h2>
+  <div class="underline"></div>
+</div>
 
 Greiber Heating & Sheet Metal is a locally owned and operated family business in Waunakee, Wisconsin led by Devon Greiber in partnership with his mother Karen Greiber. The business—along with a strong commitment to quality workmanship and service—has been handed down through four generations.
 

@@ -5,6 +5,7 @@
   background-attachment: fixed;
   position: relative;
   z-index: 1;
+
   &::after {
     position: absolute;
     top: 0;
@@ -20,54 +21,67 @@
     z-index: 2;
     content: "";
   }
+
   &__content {
     position: relative;
     z-index: 3;
     display: flex;
     overflow: hidden;
   }
+
   &__col {
     flex: 1;
   }
+
   &__col:last-of-type {
     flex: 2;
   }
+
   &__col-content {
     padding: $ic-300;
   }
+
   &__image {
     max-width: 250px;
     padding: $ic-200;
+
     img {
       object-fit: cover;
     }
   }
+
   .authorized-dealer-logo {
     max-width: 150px;
     padding: 0 0 $ic-300 0;
   }
 }
+
 .about {
   .full-width-featured {
     &::after {
       background-color: $white-overlay;
     }
+
     &__heading {
       color: $primary-color;
     }
+
     &__underline {
       background-color: $accent-color;
     }
+
     &__body {
       color: $black;
     }
   }
 }
+
 .full-width-featured-reverse {
   .full-width-featured__image {
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
+
     img {
       width: 50%;
       padding: $ic-200;
@@ -76,6 +90,7 @@
     }
   }
 }
+
 .home {
   .full-width-featured__content {
     color: $white;

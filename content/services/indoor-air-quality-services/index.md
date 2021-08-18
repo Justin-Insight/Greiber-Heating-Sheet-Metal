@@ -17,9 +17,10 @@ hero_image:
 image: 3Generations.jpg
 ---
 
-<h2 class="no-margin">Breathe Better Indoors With Our Air Purifier Services</h2>
-
-<div class="underline"></div>
+<div>
+  <h2 class="no-margin">Breathe Better Indoors With Our Air Purifier Services</h2>
+  <div class="underline"></div>
+</div>
 
 Indoor pollutants like bacteria, dust mites, animal dander, and viruses can deteriorate the quality of air inside your home. We believe that you can improve this by using quality air purifiers from Carrier.
 

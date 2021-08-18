@@ -4,28 +4,34 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
   &__icon {
     margin-bottom: $ic-300;
     display: grid;
   }
+
   &__svg {
     width: $ic-500;
     height: $ic-500;
     fill: $accent-color;
     stroke: $accent-color;
   }
+
   &__col {
     padding: $ic-300;
     flex: 1 1 300px;
     margin: $ic-300 $ic-300 $ic-600 $ic-300;
+
     p {
       margin: 0 auto;
     }
+
     ul {
       margin-bottom: $ic-200;
     }
   }
 }
+
 .cards-stacked {
   .cards {
     &__col {

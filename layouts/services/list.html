@@ -1,10 +1,10 @@
 {{ define "main" }}
 {{ partial "hero" . }}
-<div class="container-wide flex flex-column flex-row-m">
-  <section class="service-container sp-10" data-scroll-section>
+<div class="wrapper-wide flex flex-column flex-row-m">
+  <section class="service-container sp-10">
     {{ range .Paginator.Pages.ByDate.Reverse }}
     <article class="fade-up service-summary">
-      <a href="{{ .Permalink }}" class="service-summary__link">
+      <a href="{{ .Permalink }}" class="service-summary__link flow">
         <div class="service-summary__image-wrap">
           {{ $has_image := .Params.image }}
           {{ if $has_image }}

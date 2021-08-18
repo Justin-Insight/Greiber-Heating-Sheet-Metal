@@ -49,6 +49,7 @@
       url("../fonts/poppins-v15-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
+
 body,
 button,
 input,
@@ -57,9 +58,14 @@ optgroup,
 textarea {
   color: $black;
   font-family: $primary-font;
-  font-size: $ic-300;
+  font-size: 1.125rem;
   line-height: 1.5;
+
+  @include breakpoint(md) {
+    font-size: $ic-300;
+  }
 }
+
 h1,
 h2,
 h3,
@@ -74,153 +80,159 @@ h6 {
   margin-bottom: 0.75em;
   max-width: $measure-short;
 }
-p {
-  margin: 0 0 $ic-300 0;
-}
+
 h1,
 .h1 {
-  font-size: $ic-600;
-}
-h2,
-.h2 {
   font-size: $ic-500;
 }
-h3,
-.h3 {
+
+h2,
+.h2 {
   font-size: $ic-400;
 }
+
+h3,
+.h3 {
+  font-size: $ic-300;
+}
+
 h4,
 .h4 {
   font-size: $ic-300;
 }
+
 h5,
 .h5 {
   font-size: $ic-200;
 }
+
 h6,
 .h6 {
   font-size: $ic-200;
 }
+
 @include breakpoint(md) {
   h1,
   .h1 {
     font-size: $ic-700;
   }
+
   h2,
   .h2 {
     font-size: $ic-600;
   }
+
   h3,
   .h3 {
     font-size: $ic-500;
   }
+
   h4,
   .h4 {
     font-size: $ic-400;
   }
+
   h5,
   .h5 {
     font-size: $ic-300;
   }
+
   h6,
   .h6 {
     font-size: $ic-200;
   }
 }
+
 .text-left {
   text-align: left !important;
 }
+
 .text-right {
   text-align: right !important;
 }
+
 .text-center {
   text-align: center !important;
 }
+
 @include breakpoint(sm) {
   .text-left-s {
     text-align: left !important;
   }
+
   .text-right-s {
     text-align: right !important;
   }
+
   .text-center-s {
     text-align: center !important;
   }
 }
+
 @include breakpoint(md) {
   .text-left-m {
     text-align: left !important;
   }
+
   .text-right-m {
     text-align: right !important;
   }
+
   .text-center-m {
     text-align: center !important;
   }
 }
+
 @include breakpoint(lg) {
   .text-left-l {
     text-align: left !important;
   }
+
   .text-right-l {
     text-align: right !important;
   }
+
   .text-center-l {
     text-align: center !important;
   }
 }
-.i {
-  font-style: italic;
-}
+
 .b {
   font-weight: bold;
 }
+
 .underline {
   height: 5px;
-  width: 200px;
+  width: 100px;
   background-color: $accent-color;
   margin-top: 0.5rem;
   margin-bottom: $ic-400;
 }
+
 .white-underline {
   background-color: $white;
 }
-.strike {
-  text-decoration: line-through;
-}
+
 .shift-first {
   text-transform: capitalize;
 }
+
 .shift-up {
   text-transform: uppercase;
 }
-.fw4 {
-  font-weight: 400;
-}
-.fw5 {
-  font-weight: 500;
-}
-.fw6 {
-  font-weight: 600;
-}
-.fw7 {
-  font-weight: 700;
-}
-.fw8 {
-  font-weight: 800;
-}
-.fw9 {
-  font-weight: 900;
-}
+
 .no-margin {
   margin: 0;
 }
+
 .text-white {
   color: $white;
 }
+
 .text-primary {
   color: $primary-color;
 }
+
 .text-secondary {
   color: $accent-color;
 }

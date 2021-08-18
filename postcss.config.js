@@ -14,8 +14,8 @@ module.exports = {
         'is-active',
         'nav-open',
         'collapse',
-        'expand',
-      ],
-    }),
-  ],
+        'expand'
+      ]
+    })
+  ]
 }

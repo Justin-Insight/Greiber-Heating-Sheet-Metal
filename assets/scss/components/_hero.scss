@@ -1,30 +1,34 @@
 .hero {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   margin-left: auto;
   padding: $ic-700 $ic-200;
+
   @include breakpoint(md) {
     height: 80vh;
     flex-direction: row;
   }
+
   &__service-request {
     position: relative;
     z-index: 2;
+    margin-top: $ic-400;
+
     @include breakpoint(md) {
-      position: absolute;
-      bottom: 0;
+      bottom: -300px;
       right: 0;
     }
   }
+
   &__carrier-logo {
     max-width: 150px;
   }
 }
+
 .hero,
 .short-hero {
   &__inner {
@@ -32,15 +36,18 @@
     z-index: 2;
   }
 }
+
 .short-hero {
   position: relative;
   height: 30vh;
   background-color: $secondary-color;
+
   @include breakpoint(md) {
     height: auto;
     min-height: 30vh;
   }
-  &:after {
+
+  &::after {
     position: absolute;
     top: 0;
     left: 0;
@@ -49,48 +56,30 @@
     content: "";
     background-color: $gray-overlay;
   }
+
   &__image {
     height: 30vh;
     object-fit: cover;
     width: 100vw;
+
     @include breakpoint(md) {
       height: auto;
     }
   }
+
   &__inner {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
   }
 }
+
 .hero__title,
 .hero__subtitle {
   color: $white;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
-.hero-inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.blog-single-hero {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  height: 45vh;
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  margin-left: auto;
-  padding: $ic-700 $ic-200;
-  margin-top: 70px;
-  @include breakpoint(md) {
-    margin-top: 140px;
-  }
-  .center-underline {
-    margin: 0;
-  }
-}
+
 .simple-hero + .padding-top-6 {
   padding-top: $ic-300;
 }

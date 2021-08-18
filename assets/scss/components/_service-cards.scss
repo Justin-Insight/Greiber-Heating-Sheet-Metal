@@ -1,39 +1,37 @@
 .service-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  @include breakpoint(md) {
-    justify-content: flex-start;
+  display: grid;
+  gap: $ic-300;
+
+  @media (min-width: 46rem) {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
+
 .service-summary {
-  margin: 0 $ic-300 $ic-500 $ic-300;
   padding-bottom: $ic-300;
   border-bottom: 1px solid $light-gray;
-  width: 100%;
-  @include breakpoint(sm) {
-    width: 42%;
-  }
-  @include breakpoint(md) {
-    width: 45%;
-  }
+
   &__link {
     color: $black;
     text-decoration: none;
     width: 100%;
+
     &:hover,
     &:focus {
       color: $black;
     }
+
     h3 {
       transition: 0.3s ease-out;
     }
+
     &:hover,
     &:focus {
       h3,
       span {
         color: $accent-color;
       }
+
       .service-summary__read-more {
         svg {
           fill: $accent-color;
@@ -41,36 +39,31 @@
           transform: translateX(5px);
         }
       }
+
       .service-summary__img {
         opacity: 0.7;
       }
     }
   }
-  &__image-wrap {
-    margin-bottom: $ic-300;
-    height: 100%;
-  }
+
   &__img {
-    opacity: 1;
     transition: opacity 0.3s ease-out;
     height: 300px;
-    min-height: 295px;
     object-fit: cover;
   }
+
   &__title {
     margin-bottom: 0;
   }
-  &__entry-meta {
-    font-size: $ic-200;
-    margin-bottom: $ic-200;
-    transition: 0.3s ease-out;
-  }
+
   &__summary {
     transition: 0.3s ease-out;
   }
+
   &__read-more {
     margin: $ic-200 0;
     transition: 0.3s ease-out;
+
     svg {
       fill: $primary-color;
       stroke: $primary-color;

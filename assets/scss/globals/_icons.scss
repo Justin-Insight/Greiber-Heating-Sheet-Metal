@@ -4,6 +4,7 @@ svg {
   fill: $primary-color;
   stroke: $primary-color;
 }
+
 .arrow-right {
   position: relative;
   top: 3px;
@@ -14,6 +15,7 @@ svg {
   stroke: $white;
   transition: 0.4s ease;
 }
+
 .no-stroke {
   stroke: none;
 }

@@ -1,22 +1,20 @@
 {{ if eq .Title "Home" }}
-<div class="hero home-hero w-100" data-scroll-section>
-  <div class="hero__inner container-wide flex flex-column flex-row-m flex-center">
+<div class="hero home-hero w-100">
+  <div class="hero__inner w-100-m wrapper-wide flex flex-column flex-row-m flex-center">
     <div class="w-100 w-60-m">
       <h1>{{ .Params.hero_title }}</h1>
       <div class="hero__carrier-logo">
         <img src="/images/carrier-logo-white-tag.png" alt="Carrier Logo" width="300" height="100">
       </div>
     </div>
-    <div class="w-100 w-40-m">
+    <div class="hero__service-request w-100 w-40-m">
+      {{ partial "request-service" . }}
     </div>
-  </div>
-  <div class="hero__service-request w-100 w-40-m">
-    {{ partial "request-service" . }}
   </div>
 </div>
 {{ else if eq .Params.has_hero_image "true" }}
 {{ $heroClass := lower .Page.Title }}
-<div class="short-hero {{ anchorize $heroClass }}-hero flex flex-center" data-scroll-section>
+<div class="short-hero {{ anchorize $heroClass }}-hero flex flex-center">
   {{ $heroimage := (.Resources.GetMatch (index .Params.hero_image.hero_image_jpg)) }}
   {{ $herosmallwebp := $heroimage.Resize "600x q80 webp" }}
   {{ $heromediumwebp := $heroimage.Resize "1000x q80 webp" }}
@@ -33,7 +31,7 @@
       <img src="{{ $heroimage.RelPermalink }}" alt="" width="{{ $heroimage.Width }}" height="{{ $heroimage.Height }}" class="short-hero__image" loading="lazy">
     </picture>
   </picture>
-  <div class="hero__inner short-hero__inner container text-center">
+  <div class="hero__inner short-hero__inner wrapper text-center">
     {{ if (isset .Params "hero_title") }}
     <h1 class="hero__title short-hero__title text-white no-margin">
       {{ .Params.hero_title }}
@@ -47,7 +45,7 @@
 </div>
 {{ partial "breadcrumbs" . }}
 {{ else }}
-<div class="simple-hero container padding-top-6">
+<div class="simple-hero wrapper padding-top-6">
   {{ partial "breadcrumbs" . }}
   {{ if (isset .Params "hero_title") }}
     <h1>

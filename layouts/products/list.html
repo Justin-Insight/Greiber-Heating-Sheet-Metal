@@ -1,6 +1,6 @@
 {{ define "main" }}
     {{ partial "hero" . }}
-    <div class="container sp-10">
+    <div class="wrapper sp-10">
         <h2 class="no-margin">{{ .Params.intro.heading }}</h2>
         <div class="underline"></div>
         <p>{{ .Params.intro.copy }}</p>
@@ -8,7 +8,7 @@
             <img src="/images/carrier-logo.png" alt="Carrier Logo" width="300" height="100">
         </div>
     </div>
-    <div class="container sp-10">
+    <div class="wrapper sp-10">
         <div class="products-list">
             <div class="products-list__wrapper">
                 {{ range .Pages }}

@@ -14,9 +14,10 @@ hero_image:
 image: Carrier_Outdoor_Unit_Straight_On.jpg
 ---
 
-<h2 class="no-margin">Our Cooling Services Will Help You Easily Beat the Heat</h2>
-
-<div class="underline"></div>
+<div>
+  <h2 class="no-margin">Our Cooling Services Will Help You Easily Beat the Heat</h2>
+  <div class="underline"></div>
+</div>
 
 Whether you require an installation or a replacement of an air conditioner, Greiber Heating & Sheet Metal is the name that you can trust. You can be confident that our dedicated experts will provide exceptional AC services that will ensure your peace of mind during the summer months.
 

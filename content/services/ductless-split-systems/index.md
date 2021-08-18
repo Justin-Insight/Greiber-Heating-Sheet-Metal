@@ -15,9 +15,10 @@ hero_image:
 image: Interior_ShiplapWall_wDuctless-Straight.jpg
 ---
 
-<h2 class="no-margin">Ductless Split Systems</h2>
-
-<div class="underline"></div>
+<div>
+  <h2 class="no-margin">Ductless Split Systems</h2>
+  <div class="underline"></div>
+</div>
 
 To ensure a totally comfortable experience, the Carrier ® Comfort ™ Series EEZ ™ Duct-Free High Wall Split System automatically responds to changes in room temperature. At the same time, it’s an economical choice for heating and cooling comfort with several money-saving features:
 

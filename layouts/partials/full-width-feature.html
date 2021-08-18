@@ -1,7 +1,7 @@
 {{ range $index, $element := .Params.featured }}
 {{ if modBool $index 2 }}
 <section class="full-width-featured authorized-dealer" style="background-image: url('/images/background-images/{{ .background }}')">
-    <div class="full-width-featured__content container-wide padding-top-6 padding-bottom-6">
+    <div class="full-width-featured__content wrapper-wide padding-top-6 padding-bottom-6">
       <div class="fade-up flex flex-center flex-column flex-row-m">
         <div class="full-width-featured__image w-100 w-30-m">
           <img src="/images/{{ .image }}" alt="{{ .image_alt }}" width="360" height="360" loading="lazy">

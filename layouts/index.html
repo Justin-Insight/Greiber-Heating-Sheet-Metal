@@ -2,7 +2,7 @@
 {{ partial "hero" . }}
 <section class="intro">
   <div class="intro-overlay padding-top-6 padding-bottom-6">
-    <div class="container-wide">
+    <div class="wrapper-wide">
       <div class="fade-up flex flex-column flex-row-m">
         <div class="w-100 w-50-m">
           <h2 class="no-margin">{{ .Params.intro.heading }}</h2>
@@ -16,7 +16,7 @@
     </div>
   </div>
 </section>
-<section class="awards container-wide flex flex-center padding-top-6 padding-bottom-6">
+<section class="awards wrapper-wide flex flex-center padding-top-6 padding-bottom-6">
   {{ range .Params.awards }}
     <img src="{{ .image }}" alt="{{ .alt }}" width="360" height="360" loading="lazy">
   {{ end }}
