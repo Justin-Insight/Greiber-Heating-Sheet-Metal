@@ -8,7 +8,7 @@ module.exports = {
       content: [
         './layouts/**/*.html',
         './layouts/**/*.svg',
-        './content/**/*.md',
+        './content/**/*.md'
       ],
       safelist: [
         'is-active',
