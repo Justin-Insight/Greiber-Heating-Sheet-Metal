@@ -7,8 +7,6 @@ body {
 
 .site-header,
 .nav-list__dropdown,
-.contact-form__form-group input,
-.contact-form__form-group textarea,
 .simple-hero .breadcrumbs-nav {
   background-color: $black !important;
 }
@@ -55,8 +53,10 @@ body {
   }
 }
 
-.testimonial__col {
-  background-color: $black;
+.testimonial__col,
+.contact-form__form-group input,
+.contact-form__form-group textarea {
+  background-color: $black !important;
   color: $white;
 }
 
