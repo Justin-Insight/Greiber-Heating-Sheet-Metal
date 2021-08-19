@@ -45,8 +45,7 @@
 
     {{ $scss := resources.Get "scss/main.scss" | toCSS }}
     {{ $postcss := $scss | resources.PostCSS | minify }}
-    <link rel="preload" href="{{ $postcss.Permalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="{{ $postcss.Permalink }}"></noscript>
+    <link rel="stylesheet" href="{{ $postcss.Permalink }}">
 
     {{ $darkscss := resources.Get "scss/dark.scss" | toCSS }}
     {{ $postcssdark := $darkscss | resources.PostCSS | minify }}
