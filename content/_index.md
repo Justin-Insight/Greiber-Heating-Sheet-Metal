@@ -4,15 +4,6 @@ page_title: Heating and Cooling Experts in Waunakee, WI
 hero_title: Heating and Cooling Experts in Waunakee, WI
 description: Greiber Heating & Sheet Metal offers residential HVAC repair, furnace, air conditioning or cooling service plus quality Carrier equipment in Waunakee, Wisconsin
 
-has_hero_image: "true"
-
-hero_image:
-  hero_image_jpg: products-hero-2500.jpg
-  hero_image_avif: products-hero-2500.avif
-  hero_image_avif_1400: products-hero-1400.avif
-  hero_image_avif_1000: products-hero-1000.avif
-  hero_image_avif_600: products-hero-600.avif
-
 intro:
   heading: Committed to Comfort Since 1945
   copy: As a fourth-generation, family-owned business, Greiber Heating & Sheet Metal has served Waunakee and the surrounding Dane County area with premier residential heating and cooling services for decades. Whether a repair, replacement or entire system installation, we take great pride in personalized service, custom HVAC solutions and dedication to getting the job done right. As an award-winning Carrier supplier, Greiber Heating & Sheet Metal’s commitment to comfort is matched by only the highest quality equipment.

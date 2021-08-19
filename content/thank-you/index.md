@@ -1,5 +1,9 @@
 ---
 title: Thank You
+seo:
+  title: Thank You
+  description: "Greiber Heating & Sheet Metal offers commercial & residential HVAC, geothermal heating, cooling, ventilation & Carrier equipment in Shawano, Wisconsin."
+
 page_title: Thank You
 description: "Greiber Heating & Sheet Metal offers commercial & residential HVAC, geothermal heating, cooling, ventilation & Carrier equipment in Shawano, Wisconsin."
 has_hero_image: "true"

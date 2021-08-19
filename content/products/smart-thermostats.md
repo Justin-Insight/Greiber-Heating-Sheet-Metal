@@ -1,5 +1,5 @@
 ---
-title: Thermostats
+title: Smart Thermostats
 featuredImage: carrier-3Lite-front-view.png
 image_alt: Carrier Smart Thermostats
 page_title: Smart Residential Thermostats

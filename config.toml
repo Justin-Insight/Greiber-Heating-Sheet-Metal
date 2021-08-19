@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://www.greiberheating.com/"
 languageCode = "en-us"
 title = "Greiber Heating & Sheet Metal"
 enableRobotsTXT = true
@@ -8,7 +8,7 @@ summaryLength = 30
 #################### default parameters ################################
 
 [params]
-  logo = "/images/Greiber-Heating-Logo.jpg"
+  logo = "/images/Greiber-Heating-Logo.png"
   # Meta data
   description = " "
   author = "Greiber Heating & Sheet Metal"
@@ -94,7 +94,7 @@ summaryLength = 30
     parent = "Products"
     name = "Smart Thermostats"
     weight = 5
-    url = "/products/thermostats/"
+    url = "/products/smart-thermostats/"
 
   [[menu.main]]
     parent = "Products"
