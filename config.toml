@@ -9,8 +9,6 @@ summaryLength = 30
 
 [params]
   logo = "/images/Greiber-Heating-Logo.png"
-  # Meta data
-  description = " "
   author = "Greiber Heating & Sheet Metal"
   # Contact Information
   phone = "608-849-4535"
