@@ -22,7 +22,7 @@ summaryLength = 30
   hoursFri = "Fri: 7:30am-4pm"
   disallowSearchEngines = true
   # Google Analitycs
-  googleAnalytics = " " # Your ID# search 
+  googleAnalytics = "G-3C58J7QYR2" # Your ID# search 
   minifyBundles = true
 
 # add redirects/headers
