@@ -1,7 +1,7 @@
 <div class="contact-form">
     <span class="h5 text-primary b">Request Service</span>
     <div class="contact-form__wrapper">
-        <form name="contact" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field" action="https://www.greiberheating.com/thank-you/">
+        <form name="contact" data-netlify="true" netlify-honeypot="bot-field" action="https://www.greiberheating.com/thank-you/">
             <div hidden>
                 <label for="bot-field-2">
                   Don’t fill this out if you're human: 
@@ -28,7 +28,6 @@
                 <label for="message_2">Message*</label>
                 <textarea name="message" id="message_2" class="contact-form__form-control" rows="4" required></textarea>
             </div>
-            <div style="margin-bottom: 1em;" data-netlify-recaptcha="true"></div>
             <button type="submit" class="contact-form__btn btn btn-primary">Send
                 Request {{ partial "svg-icons/arrow-right.svg" . }}</button>
         </form>
