@@ -1,28 +1,28 @@
 <div class="contact-form">
     <span class="h5 text-primary b">Request Service</span>
     <div class="contact-form__wrapper">
-        <form name="footer_contact_form" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field-2" action="https://www.greiberheating.com/thank-you/">
+        <form name="contact" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field" action="/thank-you/">
             <div hidden>
-                <label for="bot-field-2">
+                <label for="bot-field">
                   Don’t fill this out if you're human: 
-                  <input name="bot-field" id="bot-field-2" />
+                  <input name="bot-field" />
                 </label>
             </div>
             <div class="visually-hidden">
-                <label for="subject">New form submission from the greiberheating.com contact form</label>
-                <input aria-label="subject" name="subject" value="New form submission from the greiberheating.com contact form" />
+                <label for="subject_2">New form submission from the greiberheating.com contact form</label>
+                <input aria-label="subject" id="subject_2" name="subject" value="New form submission from the greiberheating.com contact form" />
             </div>
             <div class="contact-form__form-group">
                 <label for="name_2">Name*</label>
                 <input name="name" id="name_2" type="text" class="contact-form__form-control" required>
             </div>
             <div class="contact-form__form-group">
-              <label for="phone_2">Phone*</label>
-              <input name="phone" id="phone_2" type="tel" class="contact-form__form-control" required>
-            </div>
-            <div class="contact-form__form-group">
                 <label for="email_2">Email*</label>
                 <input name="_replyto" id="email_2" type="email" class="contact-form__form-control" required>
+            </div>
+            <div class="contact-form__form-group">
+                <label for="phone_2">Phone*</label>
+                <input name="phone" id="phone_2" type="tel" class="contact-form__form-control" required>
             </div>
             <div class="contact-form__form-group">
                 <label for="message_2">Message*</label>
