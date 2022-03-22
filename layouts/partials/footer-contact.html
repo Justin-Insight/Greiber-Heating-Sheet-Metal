@@ -1,32 +1,32 @@
 <div class="contact-form">
     <span class="h5 text-primary b">Request Service</span>
     <div class="contact-form__wrapper">
-        <form name="contact" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field" action="https://www.greiberheating.com/thank-you/">
+        <form name="contact" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field" action="/thank-you/">
             <div hidden>
-                <label for="bot-field">
+                <label for="bot-field-footer">
                   Don’t fill this out if you're human: 
-                  <input name="bot-field" />
+                  <input name="bot-field" id="bot-field-footer" />
                 </label>
             </div>
             <div class="visually-hidden">
-                <label for="subject_2">New form submission from the greiberheating.com contact form</label>
-                <input aria-label="subject" id="subject_2" name="subject" value="New form submission from the greiberheating.com contact form" />
+                <label for="subject">New form submission from the greiberheating.com contact form</label>
+                <input aria-label="subject" id="subject" name="subject" value="New form submission from the greiberheating.com contact form" />
             </div>
             <div class="contact-form__form-group">
-                <label for="name_2">Name*</label>
-                <input name="name" id="name_2" type="text" class="contact-form__form-control" required>
+                <label for="name-footer">Name*</label>
+                <input name="name" id="name-footer" type="text" class="contact-form__form-control" required>
             </div>
             <div class="contact-form__form-group">
-                <label for="email_2">Email*</label>
-                <input name="_replyto" id="email_2" type="email" class="contact-form__form-control" required>
+              <label for="phone-footer">Phone*</label>
+              <input name="phone" id="phone-footer" type="tel" class="contact-form__form-control" required>
             </div>
             <div class="contact-form__form-group">
-                <label for="phone_2">Phone*</label>
-                <input name="phone" id="phone_2" type="tel" class="contact-form__form-control" required>
+                <label for="email-footer">Email*</label>
+                <input name="_replyto" id="email-footer" type="email" class="contact-form__form-control" required>
             </div>
             <div class="contact-form__form-group">
-                <label for="message_2">Message*</label>
-                <textarea name="message" id="message_2" class="contact-form__form-control" rows="4" required></textarea>
+                <label for="message-footer">Message*</label>
+                <textarea name="message" id="message-footer" class="contact-form__form-control" rows="4" required></textarea>
             </div>
             <div style="margin-bottom: 1em;" data-netlify-recaptcha="true"></div>
             <button type="submit" class="contact-form__btn btn btn-primary">Send
