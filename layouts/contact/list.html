@@ -45,36 +45,56 @@
                 <h4 class="no-margin">Send a Message</h4>
                 <div class="underline"></div>
                 <div class="contact-form__wrapper">
-                    <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field" action="https://www.greiberheating.com/thank-you/">
+                    <form name="contact" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field" action="/thank-you/">
                         <div hidden>
-                            <label>
-                              Don’t fill this out if you're human: 
-                              <input name="bot-field" />
+                            <label for="bot-field-2">
+                            Don’t fill this out if you're human: 
+                            <input name="bot-field" id="bot-field-2" />
                             </label>
                         </div>
                         <div class="visually-hidden">
-                            <label for="subject">New form submission from the greiberheating.com contact form</label>
-                            <input aria-label="subject" name="subject" value="New form submission from the greiberheating.com contact form" />
-                        </div>
-                        <div class="contact-form__form-group">
+                            <label for="subject">New form submission from the lawnguardwi.com website contact form</label>
+                            <input aria-label="subject" name="subject" value="New form submission from the lawnguardwi.com website contact form" />
+                          </div>
+                        <div class="contact-form__form-row">
+                        <div class="contact-form__row-wrapper">
+                            <div class="contact-form__form-group">
                             <label for="name">Name*</label>
                             <input name="name" id="name" type="text" class="contact-form__form-control" required>
-                        </div>
-                        <div class="contact-form__form-group">
+                            </div>
+                            <div class="contact-form__form-group">
                             <label for="email">Email*</label>
                             <input name="_replyto" id="email" type="email" class="contact-form__form-control" required>
+                            </div>
                         </div>
-                        <div class="contact-form__form-group">
+                        </div>
+                        <div class="contact-form__form-row">
+                        <div class="contact-form__row-wrapper">
+                            <div class="contact-form__form-group">
                             <label for="phone">Phone*</label>
                             <input name="phone" id="phone" type="tel" class="contact-form__form-control" required>
+                            </div>
+                            <div class="contact-form__form-group">
+                            <label for="address">Address</label>
+                            <input name="address" id="address" type="text" class="contact-form__form-control">
+                            </div>
+                        </div>
+                        </div>
+                        <div class="contact-form__form-group">
+                        <label for="new_customer">Are you a new customer?*</label>
+                        <select name="new_customer" id="new_customer" class="contact-form__form-control" required>
+                            <option value="">Please choose an option</option>
+                            <option value="Yes, I'm a potential new customer">Yes, I'm a potential new customer</option>
+                            <option value="No, I'm a current customer">No, I'm a current customer</option>
+                            <option value="Neither">Neither</option>
+                        </select>
                         </div>
                         <div class="contact-form__form-group">
                             <label for="message">Message*</label>
                             <textarea name="message" id="message" class="contact-form__form-control" rows="4" required></textarea>
                         </div>
                         <div style="margin-bottom: 1em;" data-netlify-recaptcha="true"></div>
-                        <button type="submit" class="contact-form__btn btn btn-primary">Send
-                            Message {{ partial "svg-icons/arrow-right.svg" . }}</button>
+                        <button type="submit" class="contact-form__btn btn btn-primary">Send Request</button>
                     </form>
                 </div>
             </div>
