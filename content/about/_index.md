@@ -23,12 +23,15 @@ team:
       image_alt: Headshot of Karen Greiber
       copy: "Karen and her late husband Marv became owners of Greiber Heating & Sheet Metal in 1990. As the office manager, Karen handles administrative operations including scheduling, accounting and billing. She’s also the kind voice you hear on the other end of the phone when you call. Outside of the office, she enjoys volunteering throughout the community and spending time with her children and grandchildren."
 featured:
-  heading: Nationally Recognized
-  body: Greiber Heating & Sheet Metal is a three-time Carrier President’s Award recipient. Each year, Carrier honors HVAC companies that demonstrate the ability to go far beyond the status quo—even in the face of challenges and change—year-over-year growth and continual emphasis on customer satisfaction.
-  images:
-    - image: 2021-carrier-presidents-award.jpg
-    - image: 2020-carrier-presidents-award.jpg
-    - image: 2019-carrier-presidents-award.jpg
+  - background: carrier-dealer-service-air-conditioner-mb.jpg
+    image: NATE-Certified-600.png
+    heading: NATE-Certified
+    body: Our technicians are NATE (North American Technician Excellence) certified. As the leading program for heating, ventilation, air-conditioning, and refrigeration, NATE is the only test supported by the entire industry and confirms technicians have real working knowledge of these specific systems.
+  - image: 2021-carrier-presidents-award.jpg
+    image2: 2020-carrier-presidents-award.jpg
+    image3: 2019-carrier-presidents-award.jpg
+    heading: Nationally Recognized
+    body: Greiber Heating & Sheet Metal is a three-time Carrier President’s Award recipient. Each year, Carrier honors HVAC companies that demonstrate the ability to go far beyond the status quo—even in the face of challenges and change—year-over-year growth and continual emphasis on customer satisfaction.
 testimonials:
   - testimonial: Excellent service. We had no heat. In the middle of a -10 day on very short notice. They came out quickly and fixed the furnace within the hour. Great experience.
     author: "- Tim C."

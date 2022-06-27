@@ -60,6 +60,7 @@
   .full-width-featured {
     &::after {
       background-color: $white-overlay;
+      background-image: none;
     }
 
     &__heading {

@@ -21,8 +21,6 @@
         {{ end }}
         {{ partial "testimonials" . }}
     </div>
-    {{ with .Params.featured }}
-    {{ partial "full-width-feature-reverse" . }}
-    {{ end }}
+    {{ partial "full-width-feature" . }}
     {{ partial "cta" . }}
 {{ end }}

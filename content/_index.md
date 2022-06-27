@@ -16,6 +16,8 @@ awards:
     alt: 2020 Carrier Presidents Award Winner
   - image: 2019-carrier-presidents-award-grayscale.jpg
     alt: 2019 Carrier Presidents Award Winner
+  - image: NATE-Certified-Technicians.jpg
+    alt: NATE Certified Technicians Logo
   - image: BBB-Accredited.jpg
     alt: BBB Accredited Business
   - image: National-Federation-of-Independent-Business.jpg
