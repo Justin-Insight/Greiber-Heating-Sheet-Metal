@@ -45,7 +45,13 @@
                 <h4 class="no-margin">Send a Message</h4>
                 <div class="underline"></div>
                 <div class="contact-form__wrapper">
-                    <form name="contact" action="/thank-you/" method="POST" data-netlify="true">
+                    <form name="contact" action="/thank-you/" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                        <div hidden>
+                            <label>
+                              Don’t fill this out if you're human: 
+                              <input name="bot-field" />
+                            </label>
+                        </div>
                         <div class="visually-hidden">
                             <label for="subject">New form submission from the greiberheating.com contact form</label>
                             <input aria-label="subject" id="subject" name="subject" value="New form submission from the greiberheating.com contact form" />
