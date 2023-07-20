@@ -6,8 +6,8 @@
                 <h3 class="no-margin">Services</h3>
                 <ul class="service-sidebar__nav">
                     {{ range where .Site.Pages "Section" "services"}}
-                    {{ if ne .URL "/services/" }}
-                    <li class="service-sidebar__list-item"><a href="{{ .URL }}" class="service-sidebar__link">{{ .Title }}</a></li>
+                    {{ if ne .RelPermalink "/services/" }}
+                    <li class="service-sidebar__list-item"><a href="{{ .RelPermalink }}" class="service-sidebar__link">{{ .Title }}</a></li>
                     {{ end }}
                     {{ end }}
                 </ul>
